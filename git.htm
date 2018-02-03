@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<!-- saved from url=(0016)http://localhost -->
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <title>git.html</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #content-info{
+            width: auto;
+            margin: 0 auto;
+            text-align: center;
+        }
+        #author-info{
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        #title{
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            padding-top: 10px;
+            margin-bottom: 2px;
+            font-size: 34px;
+            color: #505050;
+        }
+        .text{
+            white-space:nowrap;
+            text-overflow: ellipsis;
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 2px;
+            font-size: 20px;
+            color: #8c8c8c;
+        }
+        #navBar{
+            width: auto;
+            height: auto;
+            position: fixed;
+            right:0;
+            bottom: 0;
+            background-color: #f0f3f4;
+            overflow-y: auto;
+            text-align: center;
+        }
+        #svg-container{
+            width: 100%;
+            overflow-x: scroll;
+            min-width: 0px;
+            margin: 0 10px;
+        }
+        #nav-thumbs{
+            overflow-y: scroll;
+            padding: 0 5px;
+        }
+        .nav-thumb{
+            position: relative;
+            margin: 10px auto;
+        }
+        .nav-thumb >p{
+            text-align: center;
+            font-size: 12px;
+            margin: 4px 0 0 0;
+        }
+        .nav-thumb >div{
+            position: relative;
+            display: inline-block;
+            border: 1px solid #c6cfd5;
+        }
+        .nav-thumb img{
+            display: block;
+        }
+        #main-content{
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #d0cfd8;
+            display: flex;
+            height: auto;
+            flex-flow: row wrap;
+            text-align:center;
+        }
+        #svg-container >svg{
+            display: block;
+            margin:10px auto;
+            margin-bottom: 0;
+        }
+        #copyright{
+            bottom: 0;
+            left: 50%;
+            margin: 5px auto;
+            font-size: 16px;
+            color: #515151;
+        }
+        #copyright >a{
+            text-decoration: none;
+            color: #77C;
+        }
+        .number{
+            position: absolute;
+            top:0;
+            left:0;
+            border-top:22px solid #08a1ef;
+            border-right: 22px solid transparent;
+        }
+        .pagenum{
+            font-size: 12px;
+            color: #fff;
+            position: absolute;
+            top: -23px;
+            left: 2px;
+        }
+            #navBar::-webkit-scrollbar{
+            width: 8px;
+            background-color: #f5f5f5;
+        }
+            #navBar::-webkit-scrollbar-track{
+            -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.3);
+            border-radius: 8px;
+            background-color: #fff;
+        }
+            #navBar::-webkit-scrollbar-thumb{
+            border-radius: 8px;
+            -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.3);
+            background-color: #6b6b70;
+        }
+        #navBar::-webkit-scrollbar-thumb:hover{
+            background-color: #4a4a4f;
+        }
+</style>
+  </head>
+  <body>
+    <div id="main-area">
+      <div id="content-info">
+        <div id="content-info">
+          <div id="title">git.html</div>
+        </div>
+        <div id="author-info">
+          <div id="author-name" class="text">Administrator</div>
+          <div id="share-time" class="text">2018-02-02</div>
+        </div>
+      </div>
+      <div id="main-content">
+        <div id="svg-container"><svg width="1961" xmlns:ed="http://www.edrawsoft.cn/xml/2017/SVGExtensions/" id="page1" xmlns:xlink="http://www.w3.org/1999/xlink" ed:hSpacing="20" preserveAspectRadio="xMinYMin meet" height="2021" ed:vSpacing="12" ed:name="Page-1" xmlns:ev="http://www.w3.org/2001/xml-events" viewBox="0 0 1961 2022" xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css"><![CDATA[
+g[ed\:togtopicid],g[ed\:hyperlink],g[ed\:comment],g[ed\:note] {cursor:pointer;}
+g[id] {-moz-user-select: none;-ms-user-select: none;user-select: none;}
+svg text::selection,svg tspan::selection{background-color: #4285f4;color: #ffffff;fill: #ffffff;}
+.st1 {fill:#303030;font-family:宋体;font-size:10pt}
+.st2 {fill:#303030;font-family:宋体;font-size:12pt}
+.st3 {fill:#303030;font-family:宋体;font-size:14pt}
+]]></style>
+    <defs>
+        <linearGradient x2="0%" y2="100%" id="lg1" y1="0%" x1="0%">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#f0f5f0" offset="0.25"/>
+            <stop stop-color="#e1ebe1" offset="0.75"/>
+            <stop stop-color="#c8d7c8" offset="1"/>
+        </linearGradient>
+    </defs>
+    <rect width="1961" fill="#ffffff" height="2022" y="0" x="0"/>
+    <g id="558" ed:fromid="550" ed:type="relation" ed:toid="552" transform="translate(1004.65,1011.5)">
+        <path d="M-47.3,-3C7.2,13.8,-7.2,-13.8,47.3,3" fill="none"/>
+        <path stroke-linecap="round" d="M-47.3,-3C5.3,13.2,-6.3,-11.9,41.7,1.4" stroke-linejoin="round" fill="none" stroke="#0089d1"/>
+        <path stroke-width="1" stroke-linecap="round" d="M47.3,3L41.8,-2.8C42.1,-1.5,42.1,-0,41.7,1.4C41.3,2.8,40.5,4,39.5,4.9L47.3,3" fill="#0089d1" stroke="#0089d1"/>
+    </g>
+    <g ed:layout="rightmap" id="492" ed:height="33" ed:topictype="callout" ed:parentid="490" transform="translate(794.65,223)" ed:width="91">
+        <path d="M0,0L91,0L91,33L42.2,33L21.6,56.5L30.4,33L0,33L0,0z" fill="#f7e7e8" stroke-linejoin="round" fill-opacity="0.4" stroke="#b70c33"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="56" y="21.5" x="18">git init</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="495" ed:height="33" ed:topictype="callout" ed:parentid="493" transform="translate(725.65,306)" ed:width="84">
+        <path d="M0,0L84,0L84,33L39.6,33L20.9,56.5L28.2,33L0,33L0,0z" fill="#f7e7e8" stroke-linejoin="round" fill-opacity="0.4" stroke="#b70c33"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="49" y="21.5" x="18">git add</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="498" ed:height="33" ed:topictype="callout" ed:parentid="496" transform="translate(719.15,389)" ed:width="239">
+        <path d="M0,0L239,0L239,33L99.6,33L36.7,56.5L75.7,33L0,33L0,0z" fill="#f7e7e8" stroke-linejoin="round" fill-opacity="0.4" stroke="#b70c33"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="204" y="21.5" x="18">git commmit -m '增删改查+内容'</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="505" ed:height="33" ed:topictype="callout" ed:parentid="503" transform="translate(725.65,472)" ed:width="137">
+        <path d="M0,0L137,0L137,33L59.7,33L26.3,56.5L44.8,33L0,33L0,0z" fill="#f7e7e8" stroke-linejoin="round" fill-opacity="0.4" stroke="#b70c33"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="102" y="21.5" x="18">git diff 文件名</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="512" ed:height="33" ed:topictype="callout" ed:parentid="510" transform="translate(498.65,673)" ed:width="252">
+        <path d="M0,0L252,0L252,33L104.7,33L38,56.5L79.6,33L0,33L0,0z" fill="#ebe8ed" stroke-linejoin="round" fill-opacity="0.4" stroke="#611d77"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="217" y="21.5" x="18">git log/git log -pretty=oneline</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="536" ed:height="33" ed:topictype="callout" ed:parentid="520" transform="translate(572.15,756)" ed:width="196">
+        <path d="M0,0L196,0L196,33L85.9,33L28.7,70.3L69.4,33L0,33L0,0z" fill="#ebe8ed" stroke-linejoin="round" fill-opacity="0.4" stroke="#611d77"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="161" y="21.5" x="18">git reset  --hard HEAD^</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="539" ed:height="33" ed:topictype="callout" ed:parentid="534" transform="translate(800.15,798)" ed:width="296">
+        <path d="M0,0L296,0L296,33L121.3,33L42.5,56.5L92.7,33L0,33L0,0z" fill="#ebe8ed" stroke-linejoin="round" fill-opacity="0.4" stroke="#611d77"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="261" y="21.5" x="18">git reflog然后git reset  --hard 版本号</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="562" ed:height="33" ed:topictype="callout" ed:parentid="480" transform="translate(361.65,946)" ed:width="128">
+        <path d="M0,0L128,0L128,33L58.3,33L31.1,58.8L45.5,33L0,33L0,0z" fill="#eef7e7" stroke-linejoin="round" fill-opacity="0.4" stroke="#80ba01"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="93" y="21.5" x="18">版本库（.git）</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="567" ed:height="33" ed:topictype="callout" ed:parentid="565" transform="translate(485.65,1079.5)" ed:width="102">
+        <path d="M0,0L102,0L102,33L46.3,33L22.7,56.5L33.9,33L0,33L0,0z" fill="#f5e7ed" stroke-linejoin="round" fill-opacity="0.4" stroke="#ad0074"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="67" y="21.5" x="18">cat 文件名</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="596" ed:height="33" ed:topictype="callout" ed:parentid="594" transform="translate(545.15,1307)" ed:width="102">
+        <path d="M0,0L102,0L102,33L46.3,33L22.7,56.5L33.9,33L0,33L0,0z" fill="#ffebe7" stroke-linejoin="round" fill-opacity="0.4" stroke="#e05f01"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="67" y="21.5" x="18"> rm 文件名</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="624" ed:height="33" ed:topictype="callout" ed:parentid="622" transform="translate(565.65,1627.75)" ed:width="207">
+        <path d="M0,0L207,0L207,33L81.5,33L12.8,56.5L55.7,33L0,33L0,0z" fill="#e8e8f1" stroke-linejoin="round" fill-opacity="0.4" stroke="#353692"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="172" y="21.5" x="18">git checkout -b 分支名dev</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="627" ed:height="33" ed:topictype="callout" ed:parentid="625" transform="translate(582.65,1710.75)" ed:width="112">
+        <path d="M0,0L112,0L112,33L50.1,33L23.8,56.5L37,33L0,33L0,0z" fill="#e8e8f1" stroke-linejoin="round" fill-opacity="0.4" stroke="#353692"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="77" y="21.5" x="18">git branch </tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="630" ed:height="33" ed:topictype="callout" ed:parentid="628" transform="translate(526.65,1793.75)" ed:width="165">
+        <path d="M0,0L165,0L165,33L70.5,33L29.2,56.5L53.4,33L0,33L0,0z" fill="#e8e8f1" stroke-linejoin="round" fill-opacity="0.4" stroke="#353692"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="130" y="21.5" x="18">git checkout 分支名</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="633" ed:height="33" ed:topictype="callout" ed:parentid="631" transform="translate(513.65,1544.75)" ed:width="172">
+        <path d="M0,0L172,0L172,33L73.3,33L29.9,56.5L55.5,33L0,33L0,0z" fill="#e8e8f1" stroke-linejoin="round" fill-opacity="0.4" stroke="#353692"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="137" y="21.5" x="18"> git checkout 分支名</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="480" ed:height="40" ed:parentid="101" transform="translate(289.15,1004.75)" ed:width="176">
+        <path d="M0,0L176,0L176,40L0,40L0,0z" fill="#dcefcb"/>
+        <path stroke-linecap="round" d="M2.5,-1.5C1.4,-1.5,0.7,-0.7,0.7,0.1C0.8,0.9,1.5,1.6,2.6,1.5C4.9,1.4,7.3,1.2,9.6,1C11.9,0.9,14.2,0.7,16.6,0.5C18.9,0.4,21.2,0.2,23.5,0C25.9,-0.1,28.2,-0.3,30.5,-0.4C32.9,-0.5,35.2,-0.7,37.5,-0.8C38.9,-0.8,40.2,-0.9,41.5,-0.9C43.6,-1,43.6,-1.1,41.5,-1.2C40.2,-1.2,38.9,-1.2,37.5,-1.3C35.2,-1.3,32.8,-1.4,30.5,-1.4C28.2,-1.4,25.8,-1.4,23.5,-1.5C21.2,-1.5,18.8,-1.5,16.5,-1.5C14.2,-1.5,11.8,-1.5,9.5,-1.5C7.2,-1.5,4.8,-1.5,2.5,-1.5z" id="481" fill="#92d401" stroke-linejoin="round" stroke="#92d401" transform="translate(-44.54,41.06)"/>
+        <path stroke-width="3" d="M0,40L176,40" stroke-linejoin="round" fill="none" stroke="#80ba01"/>
+        <text class="st2">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="136" y="26.5" x="20">三：暂存区&amp;版本库</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="482" ed:height="40" ed:parentid="101" transform="translate(289.15,419)" ed:width="376">
+        <path d="M0,0L376,0L376,40L0,40L0,0z" fill="#eeccce"/>
+        <path stroke-linecap="round" d="M-26.5,262.6C-26.7,263.6,-26.2,264.5,-25.4,264.7C-24.6,264.9,-23.8,264.3,-23.5,263.3C-23,261,-22.5,258.7,-22.1,256.4C-21.6,254.1,-21.2,251.8,-20.8,249.5C-20.4,247.1,-20.1,244.8,-19.7,242.5C-19.4,240.2,-19.1,237.9,-18.8,235.5C-18.5,233.2,-18.2,230.9,-18,228.6C-17.7,226.3,-17.4,223.9,-17.2,221.6C-17,219.3,-16.7,216.9,-16.5,214.6C-16.3,212.3,-16.1,210,-15.9,207.6C-15.7,205.3,-15.6,203,-15.4,200.6C-15.2,198.3,-15.1,196,-14.9,193.7C-14.7,191.3,-14.6,189,-14.4,186.7C-14.3,184.3,-14.2,182,-14,179.7C-13.9,177.3,-13.8,175,-13.7,172.7C-13.5,170.3,-13.4,168,-13.3,165.7C-13.2,163.3,-13.1,161,-13,158.7C-12.9,156.3,-12.8,154,-12.7,151.7C-12.6,149.3,-12.5,147,-12.5,144.7C-12.4,142.3,-12.3,140,-12.2,137.7C-12.1,135.3,-12.1,133,-12,130.7C-11.9,128.3,-11.8,126,-11.8,123.7C-11.7,121.3,-11.6,119,-11.6,116.7C-11.5,114.3,-11.4,112,-11.4,109.7C-11.3,107.3,-11.3,105,-11.2,102.7C-11.2,100.3,-11.1,98,-11.1,95.7C-11,93.3,-10.9,91,-10.9,88.7C-10.8,86.3,-10.8,84,-10.8,81.7C-10.7,79.3,-10.7,77,-10.6,74.7C-10.6,72.3,-10.5,70,-10.5,67.7C-10.4,65.3,-10.4,63,-10.3,60.7C-10.3,58.3,-10.3,56,-10.2,53.7C-10.2,51.4,-10.1,49,-10.1,46.7C-10,44.4,-10,42,-10,39.7C-9.9,37.4,-9.9,35,-9.8,32.7C-9.8,30.4,-9.7,28,-9.7,25.7C-9.7,23.4,-9.6,21,-9.6,18.7C-9.5,16.4,-9.5,14,-9.4,11.7C-9.4,9.4,-9.3,7,-9.3,4.7C-9.3,2.4,-9.2,0,-9.2,-2.3C-9.1,-4.6,-9.1,-7,-9,-9.3C-9,-11.6,-8.9,-14,-8.9,-16.3C-8.8,-18.6,-8.8,-21,-8.7,-23.3C-8.7,-25.6,-8.6,-28,-8.5,-30.3C-8.5,-32.6,-8.4,-35,-8.4,-37.3C-8.3,-39.6,-8.2,-42,-8.2,-44.3C-8.1,-46.6,-8,-49,-8,-51.3C-7.9,-53.6,-7.8,-55.9,-7.8,-58.3C-7.7,-60.6,-7.6,-62.9,-7.5,-65.3C-7.5,-67.6,-7.4,-69.9,-7.3,-72.3C-7.2,-74.6,-7.1,-76.9,-7.1,-79.3C-7,-81.6,-6.9,-83.9,-6.8,-86.3C-6.7,-88.6,-6.6,-90.9,-6.5,-93.2C-6.4,-95.6,-6.3,-97.9,-6.2,-100.2C-6.1,-102.6,-6,-104.9,-5.9,-107.2C-5.7,-109.6,-5.6,-111.9,-5.5,-114.2C-5.4,-116.6,-5.3,-118.9,-5.1,-121.2C-5,-123.5,-4.9,-125.9,-4.7,-128.2C-4.6,-130.5,-4.4,-132.9,-4.3,-135.2C-4.1,-137.5,-4,-139.8,-3.8,-142.2C-3.6,-144.5,-3.5,-146.8,-3.3,-149.1C-3.1,-151.5,-2.9,-153.8,-2.8,-156.1C-2.6,-158.4,-2.4,-160.8,-2.2,-163.1C-2,-165.4,-1.8,-167.7,-1.5,-170.1C-1.3,-172.4,-1.1,-174.7,-0.9,-177C-0.6,-179.3,-0.4,-181.7,-0.1,-184C0.1,-186.3,0.4,-188.6,0.7,-190.9C0.9,-193.2,1.2,-195.6,1.5,-197.9C1.8,-200.2,2.1,-202.5,2.5,-204.8C2.8,-207.1,3.1,-209.4,3.5,-211.7C3.8,-214,4.2,-216.3,4.6,-218.6C5,-220.9,5.4,-223.2,5.8,-225.5C6.3,-227.8,6.7,-230.1,7.2,-232.4C7.6,-234.7,8.1,-237,8.7,-239.2C9.2,-241.5,9.7,-243.8,10.3,-246C10.9,-248.3,11.5,-250.5,12.2,-252.8C12.8,-255,13.5,-257.2,14.3,-259.4C15,-261.6,15.8,-263.8,16.7,-266C17.6,-268.2,18.5,-270.3,19.5,-272.4C20.5,-274.5,21.6,-276.6,22.8,-278.6C24,-280.6,25.3,-282.5,26.8,-284.3C28.3,-286.1,29.9,-287.8,31.7,-289.2C33.6,-290.7,35.6,-292,37.8,-292.7C39,-293.1,40.3,-293.4,41.6,-293.6C43.6,-293.9,43.6,-293.9,41.6,-293.6C40.3,-293.4,39,-293.2,37.8,-292.7C35.6,-292,33.5,-290.7,31.7,-289.3C29.9,-287.8,28.2,-286.2,26.7,-284.4C25.2,-282.6,23.9,-280.6,22.7,-278.6C21.5,-276.6,20.4,-274.6,19.3,-272.5C18.3,-270.4,17.4,-268.2,16.5,-266.1C15.6,-263.9,14.8,-261.7,14,-259.5C13.3,-257.3,12.6,-255.1,11.9,-252.9C11.2,-250.6,10.6,-248.4,10,-246.1C9.4,-243.8,8.8,-241.6,8.3,-239.3C7.8,-237,7.3,-234.8,6.8,-232.5C6.3,-230.2,5.8,-227.9,5.4,-225.6C5,-223.3,4.5,-221,4.1,-218.7C3.7,-216.4,3.4,-214.1,3,-211.8C2.6,-209.5,2.3,-207.2,1.9,-204.9C1.6,-202.6,1.3,-200.3,1,-198C0.6,-195.6,0.3,-193.3,0.1,-191C-0.2,-188.7,-0.5,-186.4,-0.8,-184.1C-1,-181.7,-1.3,-179.4,-1.5,-177.1C-1.8,-174.8,-2,-172.5,-2.3,-170.1C-2.5,-167.8,-2.7,-165.5,-2.9,-163.2C-3.1,-160.8,-3.4,-158.5,-3.6,-156.2C-3.8,-153.9,-3.9,-151.5,-4.1,-149.2C-4.3,-146.9,-4.5,-144.6,-4.7,-142.2C-4.9,-139.9,-5,-137.6,-5.2,-135.2C-5.3,-132.9,-5.5,-130.6,-5.7,-128.3C-5.8,-125.9,-6,-123.6,-6.1,-121.3C-6.2,-118.9,-6.4,-116.6,-6.5,-114.3C-6.7,-111.9,-6.8,-109.6,-6.9,-107.3C-7,-105,-7.2,-102.6,-7.3,-100.3C-7.4,-98,-7.5,-95.6,-7.6,-93.3C-7.7,-91,-7.8,-88.6,-8,-86.3C-8.1,-84,-8.2,-81.6,-8.3,-79.3C-8.4,-77,-8.5,-74.6,-8.6,-72.3C-8.6,-70,-8.7,-67.7,-8.8,-65.3C-8.9,-63,-9,-60.7,-9.1,-58.3C-9.2,-56,-9.3,-53.7,-9.3,-51.3C-9.4,-49,-9.5,-46.7,-9.6,-44.3C-9.6,-42,-9.7,-39.7,-9.8,-37.3C-9.9,-35,-9.9,-32.7,-10,-30.3C-10.1,-28,-10.1,-25.7,-10.2,-23.3C-10.3,-21,-10.3,-18.7,-10.4,-16.3C-10.5,-14,-10.5,-11.7,-10.6,-9.3C-10.7,-7,-10.7,-4.7,-10.8,-2.3C-10.8,-0,-10.9,2.3,-10.9,4.7C-11,7,-11.1,9.3,-11.1,11.7C-11.2,14,-11.2,16.3,-11.3,18.7C-11.3,21,-11.4,23.3,-11.5,25.7C-11.5,28,-11.6,30.3,-11.6,32.6C-11.7,35,-11.7,37.3,-11.8,39.6C-11.8,42,-11.9,44.3,-11.9,46.6C-12,49,-12.1,51.3,-12.1,53.6C-12.2,56,-12.2,58.3,-12.3,60.6C-12.3,63,-12.4,65.3,-12.4,67.6C-12.5,70,-12.6,72.3,-12.6,74.6C-12.7,77,-12.7,79.3,-12.8,81.6C-12.9,84,-12.9,86.3,-13,88.6C-13,91,-13.1,93.3,-13.2,95.6C-13.2,98,-13.3,100.3,-13.4,102.6C-13.4,105,-13.5,107.3,-13.6,109.6C-13.7,111.9,-13.7,114.3,-13.8,116.6C-13.9,118.9,-14,121.3,-14,123.6C-14.1,125.9,-14.2,128.3,-14.3,130.6C-14.4,132.9,-14.5,135.3,-14.6,137.6C-14.6,139.9,-14.7,142.3,-14.8,144.6C-14.9,146.9,-15,149.2,-15.1,151.6C-15.2,153.9,-15.3,156.2,-15.5,158.6C-15.6,160.9,-15.7,163.2,-15.8,165.5C-15.9,167.9,-16.1,170.2,-16.2,172.5C-16.3,174.9,-16.5,177.2,-16.6,179.5C-16.7,181.8,-16.9,184.2,-17,186.5C-17.2,188.8,-17.4,191.1,-17.5,193.5C-17.7,195.8,-17.9,198.1,-18.1,200.4C-18.2,202.8,-18.4,205.1,-18.6,207.4C-18.8,209.7,-19,212,-19.3,214.4C-19.5,216.7,-19.7,219,-20,221.3C-20.2,223.6,-20.5,225.9,-20.8,228.3C-21,230.6,-21.3,232.9,-21.6,235.2C-21.9,237.5,-22.3,239.8,-22.6,242.1C-23,244.4,-23.3,246.7,-23.7,249C-24.1,251.3,-24.5,253.5,-25,255.8C-25.4,258.1,-26,260.3,-26.5,262.6z" id="483" fill="#d00f3b" stroke-linejoin="round" stroke="#d00f3b" transform="translate(-44.54,333.94)"/>
+        <path stroke-width="3" d="M0,40L376,40" stroke-linejoin="round" fill="none" stroke="#b70c33"/>
+        <text class="st2">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="336" y="26.5" x="20">一：创建1.创建工作区(.git所在的本地文件夹)</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="484" ed:height="40" ed:parentid="101" transform="translate(289.15,780.5)" ed:width="136">
+        <path d="M0,0L136,0L136,40L0,40L0,0z" fill="#d5ccda"/>
+        <path stroke-linecap="round" d="M-19.8,81.8C-20,82.9,-19.6,83.7,-18.8,83.9C-18,84.1,-17.1,83.6,-16.9,82.6C-16.3,80.3,-15.8,78,-15.3,75.7C-14.8,73.4,-14.4,71.1,-14,68.8C-13.6,66.4,-13.2,64.1,-12.9,61.8C-12.5,59.5,-12.2,57.2,-11.9,54.8C-11.6,52.5,-11.4,50.2,-11.1,47.9C-10.9,45.5,-10.6,43.2,-10.4,40.9C-10.2,38.6,-10,36.2,-9.7,33.9C-9.5,31.6,-9.3,29.3,-9.1,26.9C-8.9,24.6,-8.8,22.3,-8.6,20C-8.4,17.6,-8.2,15.3,-8,13C-7.8,10.6,-7.6,8.3,-7.4,6C-7.3,3.7,-7.1,1.3,-6.9,-1C-6.7,-3.3,-6.5,-5.6,-6.3,-7.9C-6.1,-10.3,-5.8,-12.6,-5.6,-14.9C-5.4,-17.2,-5.2,-19.5,-4.9,-21.9C-4.7,-24.2,-4.4,-26.5,-4.1,-28.8C-3.9,-31.1,-3.6,-33.4,-3.3,-35.7C-3,-38.1,-2.6,-40.4,-2.3,-42.7C-1.9,-45,-1.6,-47.3,-1.2,-49.6C-0.8,-51.9,-0.3,-54.1,0.1,-56.4C0.6,-58.7,1.1,-61,1.6,-63.2C2.2,-65.5,2.7,-67.8,3.4,-70C4,-72.2,4.7,-74.5,5.4,-76.7C6.2,-78.9,7,-81.1,7.9,-83.2C8.7,-85.4,9.7,-87.5,10.8,-89.6C11.8,-91.6,13,-93.6,14.2,-95.6C15.5,-97.5,16.9,-99.4,18.4,-101.1C20,-102.9,21.6,-104.5,23.5,-106C25.3,-107.4,27.3,-108.7,29.3,-109.7C31.3,-110.7,33.4,-111.6,35.9,-112.1C38.3,-112.7,41.3,-113,42.8,-113.1C42.8,-113.1,42.8,-113.1,42.8,-113.1C42.8,-113.1,44.5,-113.2,44.5,-113.2C44.4,-113.2,44.3,-113.3,42.8,-113.2C41.2,-113,38.3,-112.8,35.8,-112.2C33.3,-111.7,31.3,-110.9,29.2,-109.9C27.2,-108.9,25.1,-107.6,23.3,-106.2C21.4,-104.8,19.7,-103.2,18.1,-101.4C16.6,-99.7,15.1,-97.8,13.8,-95.9C12.5,-93.9,11.3,-91.9,10.2,-89.8C9.1,-87.8,8.1,-85.6,7.2,-83.5C6.3,-81.3,5.5,-79.1,4.7,-76.9C3.9,-74.7,3.2,-72.5,2.5,-70.3C1.9,-68,1.2,-65.7,0.7,-63.5C0.1,-61.2,-0.4,-58.9,-0.9,-56.6C-1.4,-54.4,-1.9,-52.1,-2.3,-49.8C-2.8,-47.5,-3.2,-45.2,-3.5,-42.9C-3.9,-40.6,-4.3,-38.3,-4.6,-35.9C-5,-33.6,-5.3,-31.3,-5.6,-29C-5.9,-26.7,-6.2,-24.4,-6.5,-22C-6.7,-19.7,-7,-17.4,-7.3,-15.1C-7.5,-12.8,-7.8,-10.4,-8,-8.1C-8.3,-5.8,-8.5,-3.5,-8.7,-1.1C-8.9,1.2,-9.2,3.5,-9.4,5.8C-9.6,8.2,-9.8,10.5,-10,12.8C-10.3,15.1,-10.5,17.4,-10.7,19.8C-10.9,22.1,-11.1,24.4,-11.4,26.7C-11.6,29.1,-11.8,31.4,-12.1,33.7C-12.3,36,-12.6,38.3,-12.8,40.6C-13.1,43,-13.3,45.3,-13.6,47.6C-13.9,49.9,-14.2,52.2,-14.5,54.5C-14.8,56.8,-15.2,59.1,-15.6,61.4C-15.9,63.7,-16.3,66,-16.7,68.3C-17.2,70.5,-17.6,72.8,-18.1,75.1C-18.6,77.3,-19.2,79.6,-19.8,81.8z" id="485" fill="#6f2388" stroke-linejoin="round" stroke="#6f2388" transform="translate(-44.54,153.19)"/>
+        <path stroke-width="3" d="M0,40L136,40" stroke-linejoin="round" fill="none" stroke="#611d77"/>
+        <text class="st2">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="96" y="26.5" x="20">二：版本回退</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'Arial'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'宋体'; font-size:10pt; color:#303030;&quot;>对已经提交到仓库的文件多次修改并commit&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(120,-16)"/>
+        </g>
+    </g>
+    <g ed:layout="rightmap" id="488" ed:height="20.5" ed:parentid="480" transform="translate(491.15,1014.5)" ed:width="99">
+        <path stroke-linecap="round" d="M-13,4.9C-1.5,4.9,2.5,-4.9,13,-4.9" id="489" stroke-linejoin="round" fill="none" stroke="#92d401" transform="translate(-13,25.38)"/>
+        <path d="M0,20.5L99,20.5" stroke-linejoin="round" fill="none" stroke="#92d401"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="91" y="15.8" x="4">版本库控制版本</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="490" ed:height="20.5" ed:parentid="482" transform="translate(691.15,279.5)" ed:width="238">
+        <path d="M0,0L238,0L238,20.5L0,20.5L0,0z" fill="#50bec1"/>
+        <path stroke-linecap="round" d="M-13,79.5C5.2,79.5,-13,-79.5,13,-79.5" id="491" stroke-linejoin="round" fill="none" stroke="#d00f3b" transform="translate(-13,100)"/>
+        <path d="M0,20.5L238,20.5" stroke-linejoin="round" fill="none" stroke="#d00f3b"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="230" y="15.8" x="4">2.初始化一个git可跟踪管理版本的仓库</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="493" ed:height="20.5" ed:parentid="482" transform="translate(691.15,362.5)" ed:width="100">
+        <path stroke-linecap="round" d="M-13,38C4.5,38,-11.4,-38,13,-38" id="494" stroke-linejoin="round" fill="none" stroke="#d00f3b" transform="translate(-13,58.5)"/>
+        <path d="M0,20.5L100,20.5" stroke-linejoin="round" fill="none" stroke="#d00f3b"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="92" y="15.8" x="4">3.添加到暂存区</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="496" ed:height="20.5" ed:parentid="482" transform="translate(691.15,445.5)" ed:width="87">
+        <path stroke-linecap="round" d="M-13,-3.5C-1.8,-3.5,3.3,3.5,13,3.5" id="497" stroke-linejoin="round" fill="none" stroke="#d00f3b" transform="translate(-13,17)"/>
+        <path d="M0,20.5L87,20.5" stroke-linejoin="round" fill="none" stroke="#d00f3b"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="79" y="15.8" x="4">4.提交到仓库</tspan>
+        </text>
+    </g>
+    <g id="499" ed:height="20.5" ed:parentid="495" transform="translate(835.65,312.25)" ed:width="182">
+        <path stroke-linecap="round" d="M-13,-5.1C-1.4,-5.1,2.4,5.1,13,5.1" id="500" stroke-linejoin="round" fill="none" stroke="#cf366b" transform="translate(-13,15.38)"/>
+        <path d="M0,20.5L182,20.5" stroke-linejoin="round" fill="none" stroke="#cf366b"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="174" y="15.8" x="4">git status查看仓库文件状态</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="501" ed:height="20.5" ed:parentid="496" transform="translate(804.15,445.5)" ed:width="326">
+        <path stroke-linecap="round" d="M-13,0C-2.6,0,5.2,0,13,0" id="502" stroke-linejoin="round" fill="none" stroke="#d00f3b" transform="translate(-13,20.5)"/>
+        <path d="M0,20.5L326,20.5" stroke-linejoin="round" fill="none" stroke="#d00f3b"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="318" y="15.8" x="4">5.修改提交之后的文件，git status显示被改动的文件</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="503" ed:height="20.5" ed:parentid="482" transform="translate(691.15,528.5)" ed:width="100">
+        <path stroke-linecap="round" d="M-13,-45C5,-45,-12.6,45,13,45" id="504" stroke-linejoin="round" fill="none" stroke="#d00f3b" transform="translate(-13,-24.5)"/>
+        <path d="M0,20.5L100,20.5" stroke-linejoin="round" fill="none" stroke="#d00f3b"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="92" y="15.8" x="4">6.查看修改内容</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="506" ed:height="20.5" ed:parentid="503" transform="translate(817.15,528.5)" ed:width="209">
+        <path stroke-linecap="round" d="M-13,0C-2.6,0,5.2,0,13,0" id="507" stroke-linejoin="round" fill="none" stroke="#d00f3b" transform="translate(-13,20.5)"/>
+        <path d="M0,20.5L209,20.5" stroke-linejoin="round" fill="none" stroke="#d00f3b"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="201" y="15.8" x="4">7.git commit确认修改后提交仓库</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="510" ed:height="20.5" ed:parentid="484" transform="translate(451.15,729.5)" ed:width="126">
+        <path stroke-linecap="round" d="M-13,35.3C4.2,35.3,-10.7,-35.3,13,-35.3" id="511" stroke-linejoin="round" fill="none" stroke="#6f2388" transform="translate(-13,55.75)"/>
+        <path d="M0,20.5L126,20.5" stroke-linejoin="round" fill="none" stroke="#6f2388"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="118" y="15.8" x="4">1.查看提交过的版本</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="513" ed:height="20.5" ed:parentid="484" transform="translate(451.15,831.75)" ed:width="74">
+        <path stroke-linecap="round" d="M-13,-15.9C1,-15.9,-3.2,15.9,13,15.9" id="514" stroke-linejoin="round" fill="none" stroke="#6f2388" transform="translate(-13,4.63)"/>
+        <path d="M0,20.5L74,20.5" stroke-linejoin="round" fill="none" stroke="#6f2388"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="66" y="15.8" x="4">2.回退版本</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="520" ed:height="20.5" ed:parentid="513" transform="translate(551.15,826.25)" ed:width="73">
+        <path stroke-linecap="round" d="M-13,2.8C-2,2.8,3.7,-2.8,13,-2.8" id="521" stroke-linejoin="round" fill="none" stroke="#6f2388" transform="translate(-13,23.25)"/>
+        <path d="M0,20.5L73,20.5" stroke-linejoin="round" fill="none" stroke="#6f2388"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="65" y="15.8" x="4">上一个版本</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="522" ed:height="15.5" ed:parentid="520" transform="translate(650.15,828.75)" ed:width="12">
+        <path stroke-linecap="round" d="M-13,1.3C-2.6,1.3,5.2,-1.3,13,-1.3" id="523" stroke-linejoin="round" fill="none" stroke="#6f2388" transform="translate(-13,16.75)"/>
+        <path d="M0,15.5L12,15.5" stroke-linejoin="round" fill="none" stroke="#6f2388"/>
+    </g>
+    <g ed:layout="rightmap" id="526" ed:height="20.5" ed:parentid="513" transform="translate(551.15,881)" ed:width="112">
+        <path stroke-linecap="round" d="M-13,-24.6C2.7,-24.6,-7.1,24.6,13,24.6" id="527" stroke-linejoin="round" fill="none" stroke="#6f2388" transform="translate(-13,-4.13)"/>
+        <path d="M0,20.5L112,20.5" stroke-linejoin="round" fill="none" stroke="#6f2388"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="104" y="15.8" x="4">回退到上上个版本</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="528" ed:height="20.5" ed:parentid="526" transform="translate(689.15,881)" ed:width="197">
+        <path stroke-linecap="round" d="M-13,0C-2.6,0,5.2,0,13,0" id="529" stroke-linejoin="round" fill="none" stroke="#6f2388" transform="translate(-13,20.5)"/>
+        <path d="M0,20.5L197,20.5" stroke-linejoin="round" fill="none" stroke="#6f2388"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="189" y="15.8" x="4">把HEAD^ 改成 HEAD^^ 以此类推</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="530" ed:height="20.5" ed:parentid="513" transform="translate(551.15,907.5)" ed:width="120">
+        <path stroke-linecap="round" d="M-13,-37.9C4.5,-37.9,-11.4,37.9,13,37.9" id="531" stroke-linejoin="round" fill="none" stroke="#6f2388" transform="translate(-13,-17.38)"/>
+        <path d="M0,20.5L120,20.5" stroke-linejoin="round" fill="none" stroke="#6f2388"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="112" y="15.8" x="4">回退到前100个版本</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="532" ed:height="20.5" ed:parentid="530" transform="translate(697.15,907.5)" ed:width="190">
+        <path stroke-linecap="round" d="M-13,0C-2.6,0,5.2,0,13,0" id="533" stroke-linejoin="round" fill="none" stroke="#6f2388" transform="translate(-13,20.5)"/>
+        <path d="M0,20.5L190,20.5" stroke-linejoin="round" fill="none" stroke="#6f2388"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="182" y="15.8" x="4">git reset  --hard HEAD~100</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="534" ed:height="20.5" ed:parentid="522" transform="translate(688.15,854.5)" ed:width="255">
+        <path stroke-linecap="round" d="M-13,-15.4C0.9,-15.4,-3,15.4,13,15.4" id="535" stroke-linejoin="round" fill="none" stroke="#6f2388" transform="translate(-13,5.13)"/>
+        <path d="M0,20.5L255,20.5" stroke-linejoin="round" fill="none" stroke="#6f2388"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="247" y="15.8" x="4">这时处于上一个版本，要想回退到最新版本</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="542" ed:height="20.5" ed:parentid="488" transform="translate(616.15,1014.5)" ed:width="86">
+        <path stroke-linecap="round" d="M-13,0C-2.6,0,5.2,0,13,0" id="543" stroke-linejoin="round" fill="none" stroke="#92d401" transform="translate(-13,20.5)"/>
+        <path d="M0,20.5L86,20.5" stroke-linejoin="round" fill="none" stroke="#92d401"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="78" y="15.8" x="4">存了很多东西</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="544" ed:height="20.5" ed:parentid="542" transform="translate(728.15,988)" ed:width="96">
+        <path stroke-linecap="round" d="M-13,13.3C0.4,13.3,-1.9,-13.3,13,-13.3" id="545" stroke-linejoin="round" fill="none" stroke="#92d401" transform="translate(-13,33.75)"/>
+        <path d="M0,20.5L96,20.5" stroke-linejoin="round" fill="none" stroke="#92d401"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="88" y="15.8" x="4">stage(暂存区)</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="546" ed:height="20.5" ed:parentid="542" transform="translate(728.15,1014.5)" ed:width="162">
+        <path stroke-linecap="round" d="M-13,0C-2.6,0,5.2,0,13,0" id="547" stroke-linejoin="round" fill="none" stroke="#92d401" transform="translate(-13,20.5)"/>
+        <path d="M0,20.5L162,20.5" stroke-linejoin="round" fill="none" stroke="#92d401"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="154" y="15.8" x="4">git自动创建的master分支</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="548" ed:height="20.5" ed:parentid="542" transform="translate(728.15,1041)" ed:width="169">
+        <path stroke-linecap="round" d="M-13,-13.3C0.4,-13.3,-1.9,13.3,13,13.3" id="549" stroke-linejoin="round" fill="none" stroke="#92d401" transform="translate(-13,7.25)"/>
+        <path d="M0,20.5L169,20.5" stroke-linejoin="round" fill="none" stroke="#92d401"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="161" y="15.8" x="4">指向master的一个指针HEAD</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="550" ed:height="20.5" ed:parentid="544" transform="translate(850.15,988)" ed:width="148">
+        <path stroke-linecap="round" d="M-13,0C-2.6,0,5.2,0,13,0" id="551" stroke-linejoin="round" fill="none" stroke="#92d401" transform="translate(-13,20.5)"/>
+        <path d="M0,20.5L148,20.5" stroke-linejoin="round" fill="none" stroke="#92d401"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="140" y="15.8" x="4">git add：添加到暂存区</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="552" ed:height="20.5" ed:parentid="546" transform="translate(916.15,1014.5)" ed:width="338">
+        <path stroke-linecap="round" d="M-13,0C-2.6,0,5.2,0,13,0" id="553" stroke-linejoin="round" fill="none" stroke="#92d401" transform="translate(-13,20.5)"/>
+        <path d="M0,20.5L338,20.5" stroke-linejoin="round" fill="none" stroke="#92d401"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="330" y="15.8" x="4">git commit提交更改，把暂存区所有内容提交到当前分支</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="563" ed:height="40" ed:parentid="101" transform="translate(289.15,1164.25)" ed:width="136">
+        <path d="M0,0L136,0L136,40L0,40L0,0z" fill="#eacbd9"/>
+        <path stroke-linecap="round" d="M-14.1,-48.1C-14.4,-49.2,-15.3,-49.7,-16.1,-49.4C-16.9,-49.2,-17.3,-48.3,-17,-47.2C-16.3,-45,-15.6,-42.8,-15,-40.6C-14.4,-38.4,-13.8,-36.1,-13.2,-33.9C-12.7,-31.6,-12.2,-29.3,-11.7,-27.1C-11.2,-24.8,-10.7,-22.5,-10.2,-20.2C-9.8,-18,-9.3,-15.7,-8.9,-13.4C-8.4,-11.1,-8,-8.8,-7.5,-6.5C-7.1,-4.2,-6.6,-1.9,-6.2,0.4C-5.7,2.7,-5.3,4.9,-4.8,7.2C-4.3,9.5,-3.8,11.8,-3.3,14.1C-2.8,16.4,-2.3,18.7,-1.8,20.9C-1.2,23.2,-0.7,25.5,-0.1,27.7C0.5,30,1.2,32.3,1.8,34.5C2.5,36.7,3.2,39,4,41.2C4.8,43.4,5.6,45.6,6.5,47.8C7.4,49.9,8.4,52.1,9.5,54.1C10.5,56.2,11.7,58.3,12.9,60.3C14.2,62.2,15.6,64.1,17.1,65.9C18.6,67.7,20.3,69.4,22.1,70.9C23.9,72.4,25.9,73.7,27.9,74.8C30,75.9,32,76.8,34.4,77.4C36.9,78.1,39.6,78.4,41.3,78.6C42.4,78.7,43,78.7,43.5,78.7C44.2,78.7,44.2,78.7,43.5,78.7C43,78.7,42.4,78.6,41.4,78.5C39.6,78.3,36.9,77.9,34.5,77.2C32.1,76.6,30.1,75.7,28.1,74.5C26.1,73.4,24.2,72.1,22.4,70.5C20.6,69,19.1,67.3,17.6,65.5C16.1,63.7,14.8,61.8,13.6,59.9C12.4,57.9,11.3,55.8,10.3,53.7C9.3,51.7,8.3,49.5,7.5,47.4C6.6,45.2,5.9,43,5.1,40.8C4.4,38.6,3.7,36.4,3.1,34.1C2.5,31.9,1.9,29.6,1.4,27.4C0.8,25.1,0.3,22.8,-0.2,20.6C-0.7,18.3,-1.2,16,-1.6,13.7C-2.1,11.5,-2.5,9.2,-2.9,6.9C-3.4,4.6,-3.8,2.3,-4.2,-0C-4.6,-2.3,-5,-4.6,-5.4,-6.9C-5.8,-9.2,-6.2,-11.5,-6.6,-13.8C-7,-16.1,-7.4,-18.4,-7.8,-20.7C-8.3,-23,-8.7,-25.3,-9.2,-27.6C-9.6,-29.9,-10.1,-32.2,-10.6,-34.5C-11.1,-36.8,-11.6,-39.1,-12.2,-41.3C-12.8,-43.6,-13.5,-45.9,-14.1,-48.1z" id="564" fill="#c50084" stroke-linejoin="round" stroke="#c50084" transform="translate(-44.54,-38.69)"/>
+        <path stroke-width="3" d="M0,40L136,40" stroke-linejoin="round" fill="none" stroke="#ad0074"/>
+        <text class="st2">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="96" y="26.5" x="20">四：撤销修改</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="565" ed:height="20.5" ed:parentid="563" transform="translate(451.15,1136)" ed:width="100">
+        <path stroke-linecap="round" d="M-13,23.9C2.6,23.9,-6.8,-23.9,13,-23.9" id="566" stroke-linejoin="round" fill="none" stroke="#c50084" transform="translate(-13,44.38)"/>
+        <path d="M0,20.5L100,20.5" stroke-linejoin="round" fill="none" stroke="#c50084"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="92" y="15.8" x="4">1.查看文件内容</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="568" ed:height="20.5" ed:parentid="563" transform="translate(451.15,1162.5)" ed:width="100">
+        <path stroke-linecap="round" d="M-13,10.6C-0.1,10.6,-0.5,-10.6,13,-10.6" id="569" stroke-linejoin="round" fill="none" stroke="#c50084" transform="translate(-13,31.13)"/>
+        <path d="M0,20.5L100,20.5" stroke-linejoin="round" fill="none" stroke="#c50084"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="92" y="15.8" x="4">2.撤销方法一：</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="570" ed:height="20.5" ed:parentid="568" transform="translate(577.15,1162.5)" ed:width="226">
+        <path stroke-linecap="round" d="M-13,0C-2.6,0,5.2,0,13,0" id="571" stroke-linejoin="round" fill="none" stroke="#c50084" transform="translate(-13,20.5)"/>
+        <path d="M0,20.5L226,20.5" stroke-linejoin="round" fill="none" stroke="#c50084"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="218" y="15.8" x="4">直接手动删除文件中内容，再git add</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="572" ed:height="20.5" ed:parentid="563" transform="translate(451.15,1189)" ed:width="100">
+        <path stroke-linecap="round" d="M-13,-2.6C-2,-2.6,3.8,2.6,13,2.6" id="573" stroke-linejoin="round" fill="none" stroke="#c50084" transform="translate(-13,17.88)"/>
+        <path d="M0,20.5L100,20.5" stroke-linejoin="round" fill="none" stroke="#c50084"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="92" y="15.8" x="4">3.撤销方法二：</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="574" ed:height="20.5" ed:parentid="572" transform="translate(577.15,1189)" ed:width="99">
+        <path stroke-linecap="round" d="M-13,0C-2.6,0,5.2,0,13,0" id="575" stroke-linejoin="round" fill="none" stroke="#c50084" transform="translate(-13,20.5)"/>
+        <path d="M0,20.5L99,20.5" stroke-linejoin="round" fill="none" stroke="#c50084"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="91" y="15.8" x="4">回退到上一版本</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="576" ed:height="20.5" ed:parentid="563" transform="translate(451.15,1242)" ed:width="100">
+        <path stroke-linecap="round" d="M-13,-29.1C3.4,-29.1,-8.8,29.1,13,29.1" id="577" stroke-linejoin="round" fill="none" stroke="#c50084" transform="translate(-13,-8.63)"/>
+        <path d="M0,20.5L100,20.5" stroke-linejoin="round" fill="none" stroke="#c50084"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="92" y="15.8" x="4">4.撤销方法三：</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="580" ed:height="20.5" ed:parentid="576" transform="translate(577.15,1215.5)" ed:width="310">
+        <path stroke-linecap="round" d="M-13,13.3C0.4,13.3,-1.9,-13.3,13,-13.3" id="581" stroke-linejoin="round" fill="none" stroke="#c50084" transform="translate(-13,33.75)"/>
+        <path d="M0,20.5L310,20.5" stroke-linejoin="round" fill="none" stroke="#c50084"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="302" y="15.8" x="4">在撤销之前，git status,查看当前状态：modified</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="582" ed:height="20.5" ed:parentid="576" transform="translate(577.15,1255.25)" ed:width="322">
+        <path stroke-linecap="round" d="M-13,-6.6C-1,-6.6,1.6,6.6,13,6.6" id="583" stroke-linejoin="round" fill="none" stroke="#c50084" transform="translate(-13,13.88)"/>
+        <path d="M0,20.5L322,20.5" stroke-linejoin="round" fill="none" stroke="#c50084"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="314" y="15.8" x="4">git checkout --文件名  可以丢弃工作区的所有修改</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="584" ed:height="20.5" ed:parentid="582" transform="translate(925.15,1242)" ed:width="400">
+        <path stroke-linecap="round" d="M-13,6.6C-1,6.6,1.6,-6.6,13,-6.6" id="585" stroke-linejoin="round" fill="none" stroke="#c50084" transform="translate(-13,27.13)"/>
+        <path d="M0,20.5L400,20.5" stroke-linejoin="round" fill="none" stroke="#c50084"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="392" y="15.8" x="4">情况1：修改的文件在add之前，作了修改，撤销修改回到版本库状态</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="586" ed:height="20.5" ed:parentid="582" transform="translate(925.15,1268.5)" ed:width="452">
+        <path stroke-linecap="round" d="M-13,-6.6C-1,-6.6,1.6,6.6,13,6.6" id="587" stroke-linejoin="round" fill="none" stroke="#c50084" transform="translate(-13,13.88)"/>
+        <path d="M0,20.5L452,20.5" stroke-linejoin="round" fill="none" stroke="#c50084"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="444" y="15.8" x="4">情况2：修改的文件在add之后，做了修改，撤销修改回到添加暂存区后大状态</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="590" ed:height="40" ed:parentid="101" transform="translate(289.15,1332.13)" ed:width="136">
+        <path d="M0,0L136,0L136,40L0,40L0,0z" fill="#ffd4cb"/>
+        <path stroke-linecap="round" d="M-19.1,-132C-19.4,-133,-20.2,-133.6,-21,-133.4C-21.8,-133.2,-22.3,-132.3,-22,-131.3C-21.5,-129,-21,-126.8,-20.5,-124.5C-20,-122.2,-19.6,-120,-19.2,-117.7C-18.8,-115.4,-18.5,-113.1,-18.1,-110.8C-17.8,-108.5,-17.5,-106.2,-17.2,-103.9C-16.9,-101.6,-16.7,-99.3,-16.4,-97C-16.2,-94.6,-15.9,-92.3,-15.7,-90C-15.5,-87.7,-15.3,-85.4,-15.1,-83C-14.9,-80.7,-14.8,-78.4,-14.6,-76.1C-14.4,-73.8,-14.3,-71.4,-14.1,-69.1C-14,-66.8,-13.8,-64.5,-13.7,-62.1C-13.6,-59.8,-13.4,-57.5,-13.3,-55.1C-13.2,-52.8,-13.1,-50.5,-12.9,-48.2C-12.8,-45.8,-12.7,-43.5,-12.6,-41.2C-12.5,-38.8,-12.4,-36.5,-12.3,-34.2C-12.2,-31.8,-12.1,-29.5,-12,-27.2C-11.9,-24.9,-11.8,-22.5,-11.7,-20.2C-11.6,-17.9,-11.5,-15.5,-11.4,-13.2C-11.3,-10.9,-11.2,-8.5,-11.1,-6.2C-11,-3.9,-10.8,-1.5,-10.7,0.8C-10.6,3.1,-10.5,5.5,-10.4,7.8C-10.3,10.1,-10.2,12.5,-10,14.8C-9.9,17.1,-9.8,19.4,-9.6,21.8C-9.5,24.1,-9.4,26.4,-9.2,28.8C-9.1,31.1,-8.9,33.4,-8.7,35.8C-8.6,38.1,-8.4,40.4,-8.2,42.7C-8.1,45.1,-7.9,47.4,-7.7,49.7C-7.5,52.1,-7.3,54.4,-7,56.7C-6.8,59,-6.6,61.4,-6.3,63.7C-6.1,66,-5.8,68.3,-5.6,70.6C-5.3,73,-5,75.3,-4.7,77.6C-4.4,79.9,-4,82.2,-3.7,84.5C-3.4,86.8,-3,89.1,-2.6,91.4C-2.2,93.8,-1.8,96.1,-1.3,98.3C-0.9,100.6,-0.4,102.9,0.1,105.2C0.6,107.5,1.1,109.8,1.7,112C2.3,114.3,2.9,116.5,3.6,118.8C4.3,121,5,123.3,5.8,125.5C6.5,127.7,7.4,129.8,8.3,132C9.2,134.2,10.1,136.3,11.2,138.4C12.3,140.5,13.4,142.5,14.7,144.5C16,146.4,17.3,148.3,18.9,150.1C20.4,151.9,22,153.6,23.8,155.1C25.6,156.6,27.6,157.9,29.6,159C31.6,160.1,33.6,161,36.1,161.6C38.6,162.2,41.5,162.5,43,162.6C43,162.6,43,162.6,43,162.6C43,162.6,44.5,162.6,44.5,162.6C44.5,162.7,44.5,162.7,43,162.6C41.5,162.4,38.6,162.1,36.1,161.5C33.6,160.9,31.6,160,29.7,158.9C27.7,157.8,25.7,156.4,23.9,154.9C22.2,153.4,20.5,151.7,19.1,149.9C17.6,148.1,16.2,146.2,15,144.3C13.8,142.3,12.6,140.3,11.6,138.2C10.5,136.1,9.6,134,8.7,131.8C7.8,129.7,7,127.5,6.3,125.3C5.5,123.1,4.8,120.9,4.2,118.6C3.5,116.4,2.9,114.1,2.4,111.9C1.8,109.6,1.3,107.3,0.8,105C0.3,102.8,-0.1,100.5,-0.5,98.2C-1,95.9,-1.4,93.6,-1.7,91.3C-2.1,89,-2.4,86.7,-2.8,84.4C-3.1,82.1,-3.4,79.8,-3.7,77.5C-4,75.1,-4.2,72.8,-4.5,70.5C-4.7,68.2,-5,65.9,-5.2,63.6C-5.4,61.2,-5.6,58.9,-5.8,56.6C-6,54.3,-6.2,51.9,-6.4,49.6C-6.6,47.3,-6.7,45,-6.9,42.6C-7.1,40.3,-7.2,38,-7.3,35.7C-7.5,33.3,-7.6,31,-7.7,28.7C-7.9,26.4,-8,24,-8.1,21.7C-8.2,19.4,-8.3,17,-8.4,14.7C-8.5,12.4,-8.6,10,-8.7,7.7C-8.8,5.4,-8.9,3.1,-9,0.7C-9.1,-1.6,-9.2,-3.9,-9.3,-6.3C-9.3,-8.6,-9.4,-10.9,-9.5,-13.3C-9.6,-15.6,-9.7,-17.9,-9.7,-20.3C-9.8,-22.6,-9.9,-24.9,-10,-27.3C-10.1,-29.6,-10.1,-31.9,-10.2,-34.3C-10.3,-36.6,-10.4,-38.9,-10.5,-41.3C-10.6,-43.6,-10.6,-45.9,-10.7,-48.3C-10.8,-50.6,-10.9,-52.9,-11,-55.2C-11.1,-57.6,-11.2,-59.9,-11.4,-62.2C-11.5,-64.6,-11.6,-66.9,-11.7,-69.2C-11.8,-71.6,-12,-73.9,-12.1,-76.2C-12.3,-78.6,-12.4,-80.9,-12.6,-83.2C-12.8,-85.6,-12.9,-87.9,-13.1,-90.2C-13.3,-92.6,-13.5,-94.9,-13.8,-97.2C-14,-99.6,-14.2,-101.9,-14.5,-104.2C-14.8,-106.5,-15,-108.9,-15.4,-111.2C-15.7,-113.5,-16,-115.8,-16.4,-118.1C-16.8,-120.5,-17.2,-122.8,-17.6,-125.1C-18.1,-127.4,-18.6,-129.7,-19.1,-132z" id="591" fill="#fe6d01" stroke-linejoin="round" stroke="#fe6d01" transform="translate(-44.54,-122.63)"/>
+        <path stroke-width="3" d="M0,40L136,40" stroke-linejoin="round" fill="none" stroke="#e05f01"/>
+        <text class="st2">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="96" y="26.5" x="20">五：删除文件</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="594" ed:height="20.5" ed:parentid="590" transform="translate(451.15,1363.5)" ed:width="219">
+        <path stroke-linecap="round" d="M-13,-5.9C-1.2,-5.9,2,5.9,13,5.9" id="595" stroke-linejoin="round" fill="none" stroke="#fe6d01" transform="translate(-13,14.56)"/>
+        <path d="M0,20.5L219,20.5" stroke-linejoin="round" fill="none" stroke="#fe6d01"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="211" y="15.8" x="4">在commit之后的版本库中，删除文件</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="597" ed:height="20.5" ed:parentid="594" transform="translate(696.15,1350.25)" ed:width="304">
+        <path stroke-linecap="round" d="M-13,6.6C-1,6.6,1.6,-6.6,13,-6.6" id="598" stroke-linejoin="round" fill="none" stroke="#fe6d01" transform="translate(-13,27.13)"/>
+        <path d="M0,20.5L304,20.5" stroke-linejoin="round" fill="none" stroke="#fe6d01"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="296" y="15.8" x="4">情况1：直接commit，这样就提交删除文件后的版本</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="599" ed:height="20.5" ed:parentid="594" transform="translate(696.15,1376.75)" ed:width="435">
+        <path stroke-linecap="round" d="M-13,-6.6C-1,-6.6,1.6,6.6,13,6.6" id="600" stroke-linejoin="round" fill="none" stroke="#fe6d01" transform="translate(-13,13.88)"/>
+        <path d="M0,20.5L435,20.5" stroke-linejoin="round" fill="none" stroke="#fe6d01"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="427" y="15.8" x="4">情况2：commit之前，从版本库中恢复被删掉的：git checkout --文件名</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="601" ed:height="40" ed:topictype="floating" transform="translate(448.08,153)" ed:width="496">
+        <path d="M0,0L496,0L496,40L0,40L0,0z" fill="#ffe0cd"/>
+        <path stroke-width="3" d="M0,40L496,40" stroke-linejoin="round" fill="none" stroke="#e1902d"/>
+        <text class="st2">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="456" y="26.5" x="20">http://blog.csdn.net/free_wind22/article/details/50967723</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="602" ed:height="40" ed:parentid="101" transform="translate(289.15,1415.25)" ed:width="104">
+        <path d="M0,0L104,0L104,40L0,40L0,0z" fill="#cbe3ce"/>
+        <path stroke-linecap="round" d="M-20.8,-173.5C-21.1,-174.6,-21.9,-175.1,-22.7,-174.9C-23.5,-174.7,-24,-173.9,-23.7,-172.8C-23.2,-170.6,-22.7,-168.3,-22.2,-166.1C-21.7,-163.8,-21.3,-161.5,-20.9,-159.2C-20.5,-156.9,-20.1,-154.7,-19.8,-152.4C-19.5,-150.1,-19.1,-147.8,-18.8,-145.4C-18.5,-143.1,-18.3,-140.8,-18,-138.5C-17.8,-136.2,-17.5,-133.9,-17.3,-131.6C-17,-129.3,-16.8,-126.9,-16.6,-124.6C-16.4,-122.3,-16.2,-120,-16.1,-117.7C-15.9,-115.3,-15.7,-113,-15.5,-110.7C-15.4,-108.4,-15.2,-106,-15.1,-103.7C-14.9,-101.4,-14.8,-99.1,-14.7,-96.7C-14.5,-94.4,-14.4,-92.1,-14.3,-89.7C-14.2,-87.4,-14,-85.1,-13.9,-82.8C-13.8,-80.4,-13.7,-78.1,-13.6,-75.8C-13.5,-73.4,-13.4,-71.1,-13.3,-68.8C-13.2,-66.5,-13.1,-64.1,-13,-61.8C-12.9,-59.5,-12.8,-57.1,-12.8,-54.8C-12.7,-52.5,-12.6,-50.1,-12.5,-47.8C-12.4,-45.5,-12.3,-43.1,-12.3,-40.8C-12.2,-38.5,-12.1,-36.1,-12,-33.8C-11.9,-31.5,-11.9,-29.2,-11.8,-26.8C-11.7,-24.5,-11.6,-22.2,-11.6,-19.8C-11.5,-17.5,-11.4,-15.2,-11.3,-12.8C-11.2,-10.5,-11.2,-8.2,-11.1,-5.8C-11,-3.5,-10.9,-1.2,-10.8,1.2C-10.7,3.5,-10.6,5.8,-10.6,8.2C-10.5,10.5,-10.4,12.8,-10.3,15.2C-10.2,17.5,-10.1,19.8,-10,22.2C-9.9,24.5,-9.8,26.8,-9.7,29.2C-9.6,31.5,-9.5,33.8,-9.3,36.1C-9.2,38.5,-9.1,40.8,-9,43.1C-8.9,45.5,-8.7,47.8,-8.6,50.1C-8.5,52.5,-8.3,54.8,-8.2,57.1C-8,59.5,-7.9,61.8,-7.7,64.1C-7.6,66.4,-7.4,68.8,-7.2,71.1C-7,73.4,-6.9,75.8,-6.7,78.1C-6.5,80.4,-6.3,82.7,-6.1,85.1C-5.9,87.4,-5.6,89.7,-5.4,92C-5.2,94.4,-4.9,96.7,-4.7,99C-4.4,101.3,-4.2,103.6,-3.9,106C-3.6,108.3,-3.3,110.6,-3,112.9C-2.7,115.2,-2.4,117.5,-2.1,119.8C-1.7,122.2,-1.4,124.5,-1,126.8C-0.6,129.1,-0.2,131.4,0.2,133.7C0.6,136,1.1,138.3,1.5,140.6C2,142.8,2.5,145.1,3,147.4C3.5,149.7,4.1,152,4.7,154.2C5.3,156.5,5.9,158.7,6.6,161C7.3,163.2,8,165.4,8.7,167.6C9.5,169.8,10.3,172,11.2,174.2C12.1,176.3,13.1,178.5,14.1,180.6C15.2,182.6,16.3,184.7,17.6,186.7C18.8,188.7,20.2,190.6,21.6,192.4C23.1,194.2,24.8,195.9,26.5,197.4C28.3,198.9,30.2,200.2,32.3,201.3C34.5,202.4,36.8,203.2,38.9,203.6C40.2,203.9,41.4,204,42.5,204.1C43.9,204.2,43.9,204.2,42.5,204.1C41.4,204,40.2,203.9,38.9,203.6C36.9,203.1,34.5,202.3,32.4,201.2C30.3,200.1,28.4,198.8,26.6,197.3C24.9,195.8,23.3,194.1,21.8,192.3C20.3,190.4,19,188.5,17.8,186.5C16.6,184.6,15.4,182.5,14.4,180.4C13.4,178.3,12.5,176.2,11.6,174C10.7,171.9,9.9,169.7,9.1,167.5C8.4,165.3,7.7,163.1,7,160.8C6.4,158.6,5.8,156.3,5.2,154.1C4.6,151.8,4.1,149.6,3.6,147.3C3.1,145,2.6,142.7,2.1,140.4C1.7,138.1,1.3,135.9,0.9,133.6C0.5,131.3,0.1,129,-0.3,126.7C-0.6,124.4,-1,122,-1.3,119.7C-1.6,117.4,-1.9,115.1,-2.2,112.8C-2.5,110.5,-2.8,108.2,-3,105.9C-3.3,103.5,-3.5,101.2,-3.8,98.9C-4,96.6,-4.2,94.3,-4.4,91.9C-4.6,89.6,-4.8,87.3,-5,85C-5.2,82.6,-5.4,80.3,-5.6,78C-5.7,75.7,-5.9,73.3,-6.1,71C-6.2,68.7,-6.4,66.4,-6.5,64C-6.7,61.7,-6.8,59.4,-6.9,57C-7,54.7,-7.2,52.4,-7.3,50.1C-7.4,47.7,-7.5,45.4,-7.6,43.1C-7.7,40.7,-7.8,38.4,-7.9,36.1C-8,33.8,-8.1,31.4,-8.2,29.1C-8.3,26.8,-8.4,24.4,-8.5,22.1C-8.6,19.8,-8.6,17.4,-8.7,15.1C-8.8,12.8,-8.9,10.4,-8.9,8.1C-9,5.8,-9.1,3.4,-9.1,1.1C-9.2,-1.2,-9.3,-3.6,-9.3,-5.9C-9.4,-8.2,-9.5,-10.5,-9.5,-12.9C-9.6,-15.2,-9.7,-17.5,-9.7,-19.9C-9.8,-22.2,-9.8,-24.5,-9.9,-26.9C-10,-29.2,-10,-31.5,-10.1,-33.9C-10.1,-36.2,-10.2,-38.5,-10.3,-40.9C-10.3,-43.2,-10.4,-45.5,-10.5,-47.9C-10.5,-50.2,-10.6,-52.5,-10.7,-54.9C-10.7,-57.2,-10.8,-59.5,-10.9,-61.9C-10.9,-64.2,-11,-66.5,-11.1,-68.9C-11.2,-71.2,-11.3,-73.5,-11.3,-75.9C-11.4,-78.2,-11.5,-80.5,-11.6,-82.9C-11.7,-85.2,-11.8,-87.5,-11.9,-89.9C-12,-92.2,-12.1,-94.5,-12.2,-96.9C-12.4,-99.2,-12.5,-101.5,-12.6,-103.9C-12.7,-106.2,-12.9,-108.5,-13,-110.9C-13.2,-113.2,-13.3,-115.5,-13.5,-117.9C-13.6,-120.2,-13.8,-122.5,-14,-124.8C-14.2,-127.2,-14.4,-129.5,-14.6,-131.8C-14.8,-134.2,-15,-136.5,-15.3,-138.8C-15.5,-141.1,-15.8,-143.5,-16.1,-145.8C-16.4,-148.1,-16.7,-150.4,-17,-152.8C-17.3,-155.1,-17.7,-157.4,-18.1,-159.7C-18.4,-162,-18.9,-164.3,-19.3,-166.6C-19.8,-169,-20.3,-171.2,-20.8,-173.5z" id="603" fill="#02ae3d" stroke-linejoin="round" stroke="#02ae3d" transform="translate(-44.54,-164.19)"/>
+        <path stroke-width="3" d="M0,40L104,40" stroke-linejoin="round" fill="none" stroke="#029935"/>
+        <text class="st2">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="64" y="26.5" x="20"> –u参数</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="604" ed:height="20.5" ed:parentid="602" transform="translate(419.15,1425)" ed:width="1391">
+        <path stroke-linecap="round" d="M-13,4.9C-1.5,4.9,2.5,-4.9,13,-4.9" id="605" stroke-linejoin="round" fill="none" stroke="#02ae3d" transform="translate(-13,25.38)"/>
+        <path d="M0,20.5L1391,20.5" stroke-linejoin="round" fill="none" stroke="#02ae3d"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="1383" y="15.8" x="4"> 　由于远程库是空的，我们第一次推送master分支时，加上了 –u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="608" ed:height="20.5" ed:parentid="482" transform="translate(691.15,555)" ed:width="232">
+        <path stroke-linecap="round" d="M-13,-58.3C5.2,-58.3,-13,58.3,13,58.3" id="609" stroke-linejoin="round" fill="none" stroke="#d00f3b" transform="translate(-13,-37.75)"/>
+        <path d="M0,20.5L232,20.5" stroke-linejoin="round" fill="none" stroke="#d00f3b"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="224" y="15.8" x="4">7.git remote add origin https://</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="610" ed:height="20.5" ed:parentid="482" transform="translate(691.15,581.5)" ed:width="197">
+        <path stroke-linecap="round" d="M-13,-71.5C5.2,-71.5,-13,71.5,13,71.5" id="611" stroke-linejoin="round" fill="none" stroke="#d00f3b" transform="translate(-13,-51)"/>
+        <path d="M0,20.5L197,20.5" stroke-linejoin="round" fill="none" stroke="#d00f3b"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="189" y="15.8" x="4">8.git push -u origin master</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="612" ed:height="20.5" ed:parentid="482" transform="translate(691.15,608)" ed:width="332">
+        <path stroke-linecap="round" d="M-13,-84.8C5.2,-84.8,-13,84.8,13,84.8" id="613" stroke-linejoin="round" fill="none" stroke="#d00f3b" transform="translate(-13,-64.25)"/>
+        <path d="M0,20.5L332,20.5" stroke-linejoin="round" fill="none" stroke="#d00f3b"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="324" y="15.8" x="4">9.以后推送到远程仓库，直接git push origin master</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="614" ed:height="20.5" ed:parentid="482" transform="translate(691.15,634.5)" ed:width="317">
+        <path stroke-linecap="round" d="M-13,-98C5.2,-98,-13,98,13,98" id="615" stroke-linejoin="round" fill="none" stroke="#d00f3b" transform="translate(-13,-77.5)"/>
+        <path d="M0,20.5L317,20.5" stroke-linejoin="round" fill="none" stroke="#d00f3b"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="309" y="15.8" x="4">10.克隆到本地：本地文件夹直接git clone https:/</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="616" ed:height="40" ed:parentid="101" transform="translate(289.15,1652)" ed:width="184">
+        <path d="M0,0L184,0L184,40L0,40L0,0z" fill="#cecee1"/>
+        <path stroke-linecap="round" d="M-24.2,-291.9C-24.4,-293,-25.3,-293.5,-26.1,-293.3C-26.9,-293.1,-27.4,-292.3,-27.1,-291.2C-26.6,-289,-26.1,-286.7,-25.7,-284.4C-25.2,-282.2,-24.8,-279.9,-24.4,-277.6C-24,-275.3,-23.7,-273,-23.3,-270.7C-23,-268.4,-22.6,-266.1,-22.3,-263.8C-22,-261.5,-21.7,-259.2,-21.5,-256.9C-21.2,-254.6,-20.9,-252.2,-20.7,-249.9C-20.4,-247.6,-20.2,-245.3,-20,-243C-19.7,-240.7,-19.5,-238.3,-19.3,-236C-19.1,-233.7,-18.9,-231.4,-18.7,-229.1C-18.6,-226.7,-18.4,-224.4,-18.2,-222.1C-18,-219.8,-17.9,-217.4,-17.7,-215.1C-17.5,-212.8,-17.4,-210.5,-17.2,-208.1C-17.1,-205.8,-17,-203.5,-16.8,-201.2C-16.7,-198.8,-16.6,-196.5,-16.4,-194.2C-16.3,-191.8,-16.2,-189.5,-16.1,-187.2C-16,-184.9,-15.8,-182.5,-15.7,-180.2C-15.6,-177.9,-15.5,-175.5,-15.4,-173.2C-15.3,-170.9,-15.2,-168.5,-15.1,-166.2C-15,-163.9,-14.9,-161.6,-14.8,-159.2C-14.8,-156.9,-14.7,-154.6,-14.6,-152.2C-14.5,-149.9,-14.4,-147.6,-14.3,-145.2C-14.3,-142.9,-14.2,-140.6,-14.1,-138.2C-14,-135.9,-14,-133.6,-13.9,-131.2C-13.8,-128.9,-13.8,-126.6,-13.7,-124.3C-13.6,-121.9,-13.6,-119.6,-13.5,-117.3C-13.4,-114.9,-13.4,-112.6,-13.3,-110.3C-13.2,-107.9,-13.2,-105.6,-13.1,-103.3C-13.1,-100.9,-13,-98.6,-13,-96.3C-12.9,-93.9,-12.8,-91.6,-12.8,-89.3C-12.7,-86.9,-12.7,-84.6,-12.6,-82.3C-12.6,-79.9,-12.5,-77.6,-12.5,-75.3C-12.4,-72.9,-12.4,-70.6,-12.3,-68.3C-12.3,-65.9,-12.2,-63.6,-12.2,-61.3C-12.1,-58.9,-12.1,-56.6,-12,-54.3C-12,-51.9,-11.9,-49.6,-11.9,-47.3C-11.8,-45,-11.8,-42.6,-11.7,-40.3C-11.7,-38,-11.6,-35.6,-11.6,-33.3C-11.5,-31,-11.5,-28.6,-11.4,-26.3C-11.4,-24,-11.3,-21.6,-11.3,-19.3C-11.2,-17,-11.2,-14.6,-11.1,-12.3C-11.1,-10,-11,-7.6,-10.9,-5.3C-10.9,-3,-10.8,-0.6,-10.8,1.7C-10.7,4,-10.7,6.4,-10.6,8.7C-10.6,11,-10.5,13.4,-10.5,15.7C-10.4,18,-10.3,20.4,-10.3,22.7C-10.2,25,-10.2,27.4,-10.1,29.7C-10,32,-10,34.4,-9.9,36.7C-9.8,39,-9.8,41.4,-9.7,43.7C-9.6,46,-9.6,48.4,-9.5,50.7C-9.4,53,-9.4,55.4,-9.3,57.7C-9.2,60,-9.1,62.4,-9.1,64.7C-9,67,-8.9,69.4,-8.8,71.7C-8.7,74,-8.7,76.4,-8.6,78.7C-8.5,81,-8.4,83.3,-8.3,85.7C-8.2,88,-8.1,90.3,-8,92.7C-7.9,95,-7.8,97.3,-7.7,99.7C-7.6,102,-7.5,104.3,-7.4,106.7C-7.3,109,-7.2,111.3,-7.1,113.7C-7,116,-6.9,118.3,-6.8,120.7C-6.6,123,-6.5,125.3,-6.4,127.6C-6.3,130,-6.1,132.3,-6,134.6C-5.9,137,-5.7,139.3,-5.6,141.6C-5.5,144,-5.3,146.3,-5.2,148.6C-5,150.9,-4.9,153.3,-4.7,155.6C-4.5,157.9,-4.4,160.3,-4.2,162.6C-4,164.9,-3.9,167.2,-3.7,169.6C-3.5,171.9,-3.3,174.2,-3.1,176.5C-2.9,178.9,-2.7,181.2,-2.5,183.5C-2.3,185.8,-2.1,188.2,-1.9,190.5C-1.7,192.8,-1.5,195.1,-1.2,197.5C-1,199.8,-0.8,202.1,-0.5,204.4C-0.3,206.8,-0,209.1,0.3,211.4C0.5,213.7,0.8,216,1.1,218.3C1.4,220.7,1.7,223,2,225.3C2.3,227.6,2.6,229.9,3,232.2C3.3,234.5,3.6,236.8,4,239.1C4.4,241.5,4.7,243.8,5.1,246.1C5.5,248.4,5.9,250.7,6.4,253C6.8,255.2,7.3,257.5,7.7,259.8C8.2,262.1,8.7,264.4,9.2,266.7C9.7,268.9,10.3,271.2,10.9,273.5C11.4,275.7,12,278,12.7,280.2C13.3,282.5,14,284.7,14.7,286.9C15.5,289.2,16.2,291.4,17.1,293.5C17.9,295.7,18.8,297.9,19.8,300C20.8,302.1,21.8,304.2,23,306.2C24.1,308.3,25.4,310.2,26.8,312.1C28.2,314,29.8,315.7,31.5,317.3C33.2,318.8,35.2,320.2,37.4,321.1C38.7,321.6,40.1,321.9,41.6,322.1C43.6,322.5,43.6,322.5,41.6,322.1C40.1,321.9,38.7,321.6,37.4,321C35.2,320.2,33.3,318.8,31.6,317.2C29.8,315.7,28.3,313.9,26.9,312C25.5,310.2,24.2,308.2,23.1,306.2C21.9,304.1,20.9,302.1,19.9,299.9C19,297.8,18.1,295.6,17.3,293.5C16.4,291.3,15.7,289.1,15,286.9C14.2,284.6,13.6,282.4,12.9,280.2C12.3,277.9,11.7,275.7,11.1,273.4C10.6,271.1,10,268.9,9.5,266.6C9,264.3,8.5,262,8.1,259.8C7.6,257.5,7.2,255.2,6.8,252.9C6.4,250.6,6,248.3,5.6,246C5.2,243.7,4.8,241.4,4.5,239.1C4.1,236.8,3.8,234.5,3.5,232.2C3.1,229.8,2.8,227.5,2.5,225.2C2.2,222.9,1.9,220.6,1.7,218.3C1.4,216,1.1,213.6,0.9,211.3C0.6,209,0.4,206.7,0.1,204.4C-0.1,202,-0.3,199.7,-0.6,197.4C-0.8,195.1,-1,192.8,-1.2,190.4C-1.4,188.1,-1.6,185.8,-1.8,183.5C-2,181.1,-2.2,178.8,-2.4,176.5C-2.5,174.2,-2.7,171.8,-2.9,169.5C-3.1,167.2,-3.2,164.9,-3.4,162.5C-3.5,160.2,-3.7,157.9,-3.8,155.5C-4,153.2,-4.1,150.9,-4.3,148.6C-4.4,146.2,-4.5,143.9,-4.7,141.6C-4.8,139.2,-4.9,136.9,-5,134.6C-5.2,132.3,-5.3,129.9,-5.4,127.6C-5.5,125.3,-5.6,122.9,-5.7,120.6C-5.8,118.3,-5.9,115.9,-6,113.6C-6.1,111.3,-6.2,108.9,-6.3,106.6C-6.4,104.3,-6.5,102,-6.6,99.6C-6.7,97.3,-6.8,95,-6.9,92.6C-6.9,90.3,-7,88,-7.1,85.6C-7.2,83.3,-7.3,81,-7.3,78.6C-7.4,76.3,-7.5,74,-7.6,71.6C-7.6,69.3,-7.7,67,-7.8,64.7C-7.8,62.3,-7.9,60,-8,57.7C-8,55.3,-8.1,53,-8.1,50.7C-8.2,48.3,-8.2,46,-8.3,43.7C-8.4,41.3,-8.4,39,-8.5,36.7C-8.5,34.3,-8.6,32,-8.6,29.7C-8.7,27.3,-8.7,25,-8.8,22.7C-8.8,20.3,-8.9,18,-8.9,15.7C-9,13.3,-9,11,-9.1,8.7C-9.1,6.3,-9.1,4,-9.2,1.7C-9.2,-0.7,-9.3,-3,-9.3,-5.3C-9.4,-7.7,-9.4,-10,-9.4,-12.3C-9.5,-14.7,-9.5,-17,-9.6,-19.3C-9.6,-21.7,-9.6,-24,-9.7,-26.3C-9.7,-28.7,-9.8,-31,-9.8,-33.3C-9.8,-35.7,-9.9,-38,-9.9,-40.3C-9.9,-42.7,-10,-45,-10,-47.3C-10.1,-49.7,-10.1,-52,-10.1,-54.3C-10.2,-56.6,-10.2,-59,-10.3,-61.3C-10.3,-63.6,-10.3,-66,-10.4,-68.3C-10.4,-70.6,-10.5,-73,-10.5,-75.3C-10.5,-77.6,-10.6,-80,-10.6,-82.3C-10.7,-84.6,-10.7,-87,-10.8,-89.3C-10.8,-91.6,-10.8,-94,-10.9,-96.3C-10.9,-98.6,-11,-101,-11,-103.3C-11.1,-105.6,-11.1,-108,-11.2,-110.3C-11.2,-112.6,-11.3,-115,-11.3,-117.3C-11.4,-119.6,-11.4,-122,-11.5,-124.3C-11.5,-126.6,-11.6,-129,-11.7,-131.3C-11.7,-133.6,-11.8,-136,-11.8,-138.3C-11.9,-140.6,-12,-143,-12,-145.3C-12.1,-147.6,-12.2,-150,-12.3,-152.3C-12.3,-154.6,-12.4,-157,-12.5,-159.3C-12.6,-161.6,-12.6,-164,-12.7,-166.3C-12.8,-168.6,-12.9,-171,-13,-173.3C-13.1,-175.6,-13.2,-178,-13.3,-180.3C-13.4,-182.6,-13.5,-185,-13.6,-187.3C-13.7,-189.6,-13.8,-192,-13.9,-194.3C-14,-196.6,-14.1,-199,-14.3,-201.3C-14.4,-203.6,-14.5,-206,-14.7,-208.3C-14.8,-210.6,-14.9,-213,-15.1,-215.3C-15.2,-217.6,-15.4,-219.9,-15.5,-222.3C-15.7,-224.6,-15.9,-226.9,-16,-229.3C-16.2,-231.6,-16.4,-233.9,-16.6,-236.3C-16.8,-238.6,-17,-240.9,-17.2,-243.2C-17.4,-245.6,-17.7,-247.9,-17.9,-250.2C-18.1,-252.5,-18.4,-254.9,-18.7,-257.2C-18.9,-259.5,-19.2,-261.8,-19.5,-264.2C-19.8,-266.5,-20.1,-268.8,-20.4,-271.1C-20.8,-273.4,-21.1,-275.8,-21.5,-278.1C-21.9,-280.4,-22.3,-282.7,-22.8,-285C-23.2,-287.3,-23.7,-289.6,-24.2,-291.9z" id="617" fill="#3d3fa6" stroke-linejoin="round" stroke="#3d3fa6" transform="translate(-44.54,-282.56)"/>
+        <path stroke-width="3" d="M0,40L184,40" stroke-linejoin="round" fill="none" stroke="#353692"/>
+        <text class="st2">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="144" y="26.5" x="20">六：创建与合并分支</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="618" ed:height="20.5" ed:parentid="616" transform="translate(499.15,1495.75)" ed:width="34">
+        <path stroke-linecap="round" d="M-13,87.9C5.2,87.9,-13,-87.9,13,-87.9" id="619" stroke-linejoin="round" fill="none" stroke="#3d3fa6" transform="translate(-13,108.38)"/>
+        <path d="M0,20.5L34,20.5" stroke-linejoin="round" fill="none" stroke="#3d3fa6"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="26" y="15.8" x="4">理解</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="620" ed:height="65.5" ed:parentid="618" transform="translate(559.15,1473.25)" ed:width="419">
+        <path stroke-linecap="round" d="M-13,-11.3C-0,-11.3,-0.9,11.3,13,11.3" id="621" stroke-linejoin="round" fill="none" stroke="#3d3fa6" transform="translate(-13,54.25)"/>
+        <path d="M0,65.5L419,65.5" stroke-linejoin="round" fill="none" stroke="#3d3fa6"/>
+        <text class="st1">
+            <tspan style="white-space:pre" y="15.8" x="3">在版本回退里，你已经知道，每次提交，Git都把它们串成一条时间线，</tspan>
+            <tspan style="white-space:pre" y="30.8" x="3">这条时间线就是一个分支。截止到目前，只有一条时间线，在Git里，</tspan>
+            <tspan style="white-space:pre" y="45.8" x="3">这个分支叫主分支，即master分支。HEAD严格来说是指向的当前分支。</tspan>
+            <tspan style="white-space:pre" y="60.8" x="3">而指向master，master才是指向提交的</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="622" ed:height="20.5" ed:parentid="616" transform="translate(499.15,1684.25)" ed:width="112">
+        <path stroke-linecap="round" d="M-13,-6.4C-1.1,-6.4,1.7,6.4,13,6.4" id="623" stroke-linejoin="round" fill="none" stroke="#3d3fa6" transform="translate(-13,14.13)"/>
+        <path d="M0,20.5L112,20.5" stroke-linejoin="round" fill="none" stroke="#3d3fa6"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="104" y="15.8" x="4">创建并切换到分支</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="625" ed:height="20.5" ed:parentid="616" transform="translate(499.15,1767.25)" ed:width="198">
+        <path stroke-linecap="round" d="M-13,-47.9C5.1,-47.9,-12.9,47.9,13,47.9" id="626" stroke-linejoin="round" fill="none" stroke="#3d3fa6" transform="translate(-13,-27.38)"/>
+        <path d="M0,20.5L198,20.5" stroke-linejoin="round" fill="none" stroke="#3d3fa6"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="190" y="15.8" x="4">查看所有分支(当前分支前面带*)</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="628" ed:height="20.5" ed:parentid="616" transform="translate(499.15,1850.25)" ed:width="86">
+        <path stroke-linecap="round" d="M-13,-89.4C5.2,-89.4,-13,89.4,13,89.4" id="629" stroke-linejoin="round" fill="none" stroke="#3d3fa6" transform="translate(-13,-68.88)"/>
+        <path d="M0,20.5L86,20.5" stroke-linejoin="round" fill="none" stroke="#3d3fa6"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="78" y="15.8" x="4">查看当前分支</tspan>
+        </text>
+    </g>
+    <g ed:layout="rightmap" id="631" ed:height="20.5" ed:parentid="616" transform="translate(499.15,1601.25)" ed:width="60">
+        <path stroke-linecap="round" d="M-13,35.1C4.2,35.1,-10.7,-35.1,13,-35.1" id="632" stroke-linejoin="round" fill="none" stroke="#3d3fa6" transform="translate(-13,55.63)"/>
+        <path d="M0,20.5L60,20.5" stroke-linejoin="round" fill="none" stroke="#3d3fa6"/>
+        <text class="st1">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="52" y="15.8" x="4">创建分支</tspan>
+        </text>
+    </g>
+    <g ed:layout="map" id="101" ed:height="62" ed:topictype="mainidea" transform="translate(153,1015.88)" ed:width="94.15000000000001">
+        <path stroke-width="3" d="M15.5,0L78.7,0L94.2,15.5L94.2,46.5L78.7,62L15.5,62L0,46.5L0,15.5L15.5,0z" fill="#edced4" stroke-linejoin="round" stroke="#b62e5d"/>
+        <text class="st3">
+            <tspan style="white-space:pre" lengthAdjust="spacing" textLength="30" y="38.5" x="33">git</tspan>
+        </text>
+    </g>
+    <g ed:togtopicid="495" transform="translate(810.65,316.5)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="101" transform="translate(248.15,1040.88)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="480" transform="translate(466.15,1018.75)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="482" transform="translate(666.15,433)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="484" transform="translate(426.15,794.5)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="488" transform="translate(591.15,1018.75)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="496" transform="translate(779.15,449.75)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="503" transform="translate(792.15,532.75)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="513" transform="translate(526.15,836)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="520" transform="translate(625.15,830.5)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="522" transform="translate(663.15,830.5)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="526" transform="translate(664.15,885.25)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="530" transform="translate(672.15,911.75)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="542" transform="translate(703.15,1018.75)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="544" transform="translate(825.15,992.25)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="546" transform="translate(891.15,1018.75)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="563" transform="translate(426.15,1178.25)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="568" transform="translate(552.15,1166.75)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="572" transform="translate(552.15,1193.25)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="576" transform="translate(552.15,1246.25)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="582" transform="translate(900.15,1259.5)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="590" transform="translate(426.15,1346.13)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="594" transform="translate(671.15,1367.75)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="602" transform="translate(394.15,1429.25)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="616" transform="translate(474.15,1666)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="618" transform="translate(534.15,1500)">
+        <use xlink:href="#minus"/>
+    </g>
+    <symbol id="plus">
+        <path d="M11,6C11,8.8,8.8,11,6,11C3.2,11,1,8.8,1,6C1,3.2,3.2,1,6,1C8.8,1,11,3.2,11,6z" fill="url(#lg1)"/>
+        <path d="M11,6C11,8.8,8.8,11,6,11C3.2,11,1,8.8,1,6C1,3.2,3.2,1,6,1C8.8,1,11,3.2,11,6zM3,6L9,6M6,3L6,9" fill="none" stroke="#46a000"/>
+    </symbol>
+    <symbol id="minus">
+        <path d="M11,6C11,8.8,8.8,11,6,11C3.2,11,1,8.8,1,6C1,3.2,3.2,1,6,1C8.8,1,11,3.2,11,6z" fill="url(#lg1)"/>
+        <path d="M11,6C11,8.8,8.8,11,6,11C3.2,11,1,8.8,1,6C1,3.2,3.2,1,6,1C8.8,1,11,3.2,11,6zM3,6L9,6" fill="none" stroke="#46a000"/>
+    </symbol>
+    <symbol id="note">
+        <image width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDMwRENEQjU5Nzg1MTFFNzlBQ0FCMEY4Rjc5N0Q0MkIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDMwRENEQjQ5Nzg1MTFFNzlBQ0FCMEY4Rjc5N0Q0MkIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NkFDNEE4NzgyNENGMTFFN0FEOTA5MzNFOUY4NzE5OTAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NkFDNEE4NzkyNENGMTFFN0FEOTA5MzNFOUY4NzE5OTAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6IjguxAAADcUlEQVR42uSXS0gUcRzHv7OzD3dzW7VaNfKRpYZFpJkYRRFI0KEOBUGHDlKEEfSwJOh16QHVMehQHTrUoQdF0CWNQHpopm1pFgX5wM18uz5WZ3dmdvrqJBlFrjWrgf/Tf/87zOf3/c3v9Rc0TcN0LhOmeZnHNidOX4m4K86c3CP8vx4YZ6WhgOGWVpy9/vCns/qSo1h68XzkPaB0fYFS8wpHlqQhO6Siofjc6PkYPKIGaIqC4DsvNMGJQKsXeZIfEHHsw75T8BSWRN4AwWyGsCgJ/rf1kLxtkGUZqqyehYYTf4yBsVXpef9X4PREC+KU55DjNsOeNB/K1o3ouHwTKg1S6RVVUU/TiCAfvWC4B9zRAdi6H0BAAJb2GwgOeuFclom6rEzIfQNQZAVSINihiv77E3ogPztrcvRQD/D1LmCPYQAIEHqfwdpTjmDmJVT3+qHmrkDG05deu314rc+kNRsbA8EOoOUWjRBG4egs5T4AWOJgpSfW5rjh8fmR4avJietsbV5z9drEMRD2ChDeRuWCZST0CH9EuATY4oHZK4CeZ9jgrketYzVspc87Ew2thNJXwu/wLdYfcJXKrW7ASXjvC2jM/7KPaegfEsOrhOFmwfJUGxwDBJpsdDvbSFcZlTO4bXN15b4K1gI/JMd6VDbOMrYbxph7ILTdY2GJIjxEeKkOt8whPJvKK3guI7SgCPasQ5PrBRNmgdJOt5dzQ5gi68o1hfBYwJVD5VU0ZghYfByiK3fyzejP39xL+IjyaEKpuPuxDjfH6PC+ahrVDyws5u/csF4ZvgFSC+GsH2bCVcK7RuAqlc8mbCXQ7wFk1oLU/XTOOoMnouExuFOP8lG3Ey4yuFyrCH+jp2PyXmBuwb/NA7/LgtzYBj7INFLZ0bqejPQ6wh1AbP53ONMxuYi1eJPxM2GKO5pZ5kJIi4HW7Rllw8Toj10NDNTqcZG0C4jfYsxE9EsWDHUg9MUPbVhglc2HyeKB4MokvI7/NVH5biBhWwSnYl8DtMFW/dubHNBmMbr7qXzoM5UXAonbIzeWS4EAql7XQxT5GEsqFInGiAiZ8xjtB4D5O4wfSsevpsZG3C7/hOSdBUiYZ4XmTGGNT+C0ExW5qXj8EkURh4sPwh2fQF8JEKZiLP9pvEpPn/p7AW9IM+tuKMz42/E3AQYASdRSZfYtoZ0AAAAASUVORK5CYII=" height="16" y="0" x="0"/>
+    </symbol>
+</svg>
+</div>
+        <div id="copyright">Created With  <a href="https://www.edrawsoft.com/" target="_blank" title="edrawsoft">MindMaster</a></div>
+      </div>
+    </div>
+    <script>eval(atob('dmFyIG11YT13aW5kb3cubmF2aWdhdG9yLnVzZXJBZ2VudDsNCnZhciB1YT0obXVhLmluZGV4T2YoJ3J2OjExJykrbXVhLmluZGV4T2YoJ01TSUUnKSk+PTA7DQpOdW1iZXIucHJvdG90eXBlLnRvc3VpdHN2Zz1mdW5jdGlvbiAoKSB7DQogICAgdmFyIG51bT10aGlzLnZhbHVlT2YoKTsNCiAgICBpZihudW0lMT09PTApew0KICAgICAgICByZXR1cm4gbnVtKzAuNQ0KICAgIH1lbHNlIHJldHVybiBudW07DQp9Ow0KTnVtYmVyLnByb3RvdHlwZS5wbHVzej1mdW5jdGlvbigpIHsNCiAgICB2YXIgbnVtPXRoaXMudmFsdWVPZigpOw0KICAgIHJldHVybiBudW08MTA/JzAnK251bTpudW07DQp9Ow0KZnVuY3Rpb24gcGFyc2VEYXRlKG51bSkgew0KICAgIHZhciBkYXRlID0gbmV3IERhdGUobnVtKTsNCiAgICB2YXIgWSA9IGRhdGUuZ2V0RnVsbFllYXIoKSArICctJzsNCiAgICB2YXIgTSA9IChkYXRlLmdldE1vbnRoKCkrMSkucGx1c3ooKSArICctJzsNCiAgICB2YXIgRCA9IGRhdGUuZ2V0RGF0ZSgpLnBsdXN6KCkgKyAnICc7DQogICAgdmFyIGggPSBkYXRlLmdldEhvdXJzKCkucGx1c3ooKSArICc6JzsNCiAgICB2YXIgbW0gPSBkYXRlLmdldE1pbnV0ZXMoKS5wbHVzeigpICsgJzonOw0KICAgIHZhciBzID0gZGF0ZS5nZXRTZWNvbmRzKCkucGx1c3ooKTsNCiAgICByZXR1cm4gWStNK0QraCttbStzOw0KfQ0KLy8tLXByZWRlZmluZWQNCi8vY29tbWVudC0tDQp2YXIgY29tbWVudHM9ZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnZz5nW2VkXFw6Y29tbWVudF0nKTsNCmZ1bmN0aW9uIGdldGN3aChwb3B1cCkgew0KICAgIGRvY3VtZW50LmJvZHkuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3N2ZycpWzBdLmFwcGVuZENoaWxkKHBvcHVwKTsNCiAgICB2YXIgdz1wb3B1cC5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKS53aWR0aDsNCiAgICB2YXIgaD1wb3B1cC5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKS5oZWlnaHQ7DQogICAgcmV0dXJuIFt3LGhdDQp9DQpmb3IodmFyIGk9MDtpPGNvbW1lbnRzLmxlbmd0aDtpKyspew0KICAgIHZhciBwb3B1cD1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywnZycpOw0KICAgIHZhciBob3Zlcj1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywncmVjdCcpOw0KICAgIHZhciBvbGluZT1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywncmVjdCcpOw0KICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnZmlsbCcsJyNjZGNkZmYnKTsNCiAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3gnLCcwJyk7DQogICAgaG92ZXIuc2V0QXR0cmlidXRlKCd5JywnMCcpOw0KICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnaGVpZ2h0JywnMTYnKTsNCiAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3dpZHRoJywnMTYnKTsNCiAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ2ZpbGwtb3BhY2l0eScsJzAuNicpOw0KICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgndHJhbnNmb3JtJyxjb21tZW50c1tpXS5xdWVyeVNlbGVjdG9yKCd1c2UnKS5nZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScpKTsNCiAgICBob3Zlci5zdHlsZS5kaXNwbGF5PSdub25lJzsNCiAgICBjb21tZW50c1tpXS5hcHBlbmRDaGlsZChob3Zlcik7DQogICAgdmFyIGE9SlNPTi5wYXJzZShjb21tZW50c1tpXS5nZXRBdHRyaWJ1dGUoJ2VkOmNvbW1lbnQnKSk7DQogICAgdmFyIGhlaWdodD0wOw0KICAgIHZhciBjYXJyPVtdOw0KICAgIGZvcih2YXIgaj0wO2o8YS5sZW5ndGg7aisrKXsNCiAgICAgICAgdmFyIHN0YW1wPU51bWJlcihhW2pdLkRhdGUpKjEwMDA7DQogICAgICAgIHZhciB0aW1lPXBhcnNlRGF0ZShzdGFtcCk7DQogICAgICAgIHZhciBuYW1lPWFbal0uTmFtZTsNCiAgICAgICAgdmFyIG1lc3NhZ2U9YVtqXS5NZXNzYWdlOw0KICAgICAgICB2YXIgbWVzc2FnZUFycj1tZXNzYWdlLnNwbGl0KC9cbi8pOw0KICAgICAgICB2YXIgbz1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywnZycpOw0KICAgICAgICB2YXIgbj1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywndGV4dCcpOw0KICAgICAgICB2YXIgdD1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywndGV4dCcpOw0KICAgICAgICB2YXIgbT1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywndGV4dCcpOw0KICAgICAgICBuLnNldEF0dHJpYnV0ZSgneCcsNSk7DQogICAgICAgIG4uc2V0QXR0cmlidXRlKCd5JywxMik7DQogICAgICAgIG4uc2V0QXR0cmlidXRlKCdmaWxsJywnIzAwNmVmZicpOw0KICAgICAgICBuLnRleHRDb250ZW50PW5hbWUrJ++8mic7DQogICAgICAgIG4uc2V0QXR0cmlidXRlKCdmb250LXNpemUnLCcxMicpOw0KICAgICAgICB0LnNldEF0dHJpYnV0ZSgneCcsMjAwKTsNCiAgICAgICAgdC5zZXRBdHRyaWJ1dGUoJ3knLDEyKTsNCiAgICAgICAgdC5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCcjOTY5Njk2Jyk7DQogICAgICAgIHQudGV4dENvbnRlbnQ9dGltZTsNCiAgICAgICAgdC5zZXRBdHRyaWJ1dGUoJ2ZvbnQtc2l6ZScsJzEwJyk7DQogICAgICAgIG0uc2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nLCd0cmFuc2xhdGUoMjAsMjcpJyk7DQogICAgICAgIG0uc2V0QXR0cmlidXRlKCdmb250LXNpemUnLCcxMicpOw0KICAgICAgICBmb3IodmFyIGs9MDtrPG1lc3NhZ2VBcnIubGVuZ3RoO2srKyl7DQogICAgICAgICAgICB2YXIgdHM9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsJ3RzcGFuJyk7DQogICAgICAgICAgICB0cy5zZXRBdHRyaWJ1dGUoJ3gnLCcwJyk7DQogICAgICAgICAgICB0cy5zZXRBdHRyaWJ1dGUoJ3knLGsqMTYpOw0KICAgICAgICAgICAgdHMudGV4dENvbnRlbnQ9bWVzc2FnZUFycltrXTsNCiAgICAgICAgICAgIG0uYXBwZW5kQ2hpbGQodHMpOw0KICAgICAgICB9DQogICAgICAgIG8uc2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nLCd0cmFuc2xhdGUoMCwnK2hlaWdodCsnKScpOw0KICAgICAgICBvLmFwcGVuZENoaWxkKG4pOw0KICAgICAgICBvLmFwcGVuZENoaWxkKHQpOw0KICAgICAgICBvLmFwcGVuZENoaWxkKG0pOw0KICAgICAgICBjYXJyLnB1c2gobyk7DQogICAgICAgIHBvcHVwLmFwcGVuZENoaWxkKG8pOw0KICAgICAgICBoZWlnaHQ9KG1lc3NhZ2VBcnIubGVuZ3RoKzEpKjE2K2hlaWdodDsNCiAgICB9DQogICAgdmFyIHdhcnI9Z2V0Y3doKHBvcHVwKTsNCiAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ3gnLCcwJyk7DQogICAgb2xpbmUuc2V0QXR0cmlidXRlKCd5JywnMCcpOw0KICAgIHZhciBvdz13YXJyWzBdKzEwLjU7DQogICAgdmFyIG9oPXdhcnJbMV0rMzsNCiAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ3dpZHRoJyxvdyk7DQogICAgb2xpbmUuc2V0QXR0cmlidXRlKCdoZWlnaHQnLG9oKTsNCiAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCd3aGl0ZScpOw0KICAgIG9saW5lLnNldEF0dHJpYnV0ZSgnc3Ryb2tlJywnIzY1NjU2NScpOw0KICAgIHBvcHVwLmFwcGVuZENoaWxkKG9saW5lKTsNCiAgICB2YXIgbD1jYXJyLmxlbmd0aDsNCiAgICB3aGlsZShsLS0pew0KICAgICAgICBwb3B1cC5hcHBlbmRDaGlsZChjYXJyW2xdKTsNCiAgICB9DQogICAgcG9wdXAub25tb3VzZW92ZXI9ZnVuY3Rpb24gKCkgew0KICAgICAgICB0aGlzLnN0eWxlLmRpc3BsYXk9J2Jsb2NrJzsNCiAgICB9Ow0KICAgIHBvcHVwLm9ubW91c2VvdXQ9ZnVuY3Rpb24gKCkgew0KICAgICAgICB0aGlzLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgfTsNCiAgICB2YXIgY3M9Y29tbWVudHNbaV0ucXVlcnlTZWxlY3RvcigndXNlJykuZ2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nKS5tYXRjaCgvXCgoXFMqfFxTKlxzXFMqKVwpLylbMV0uc3BsaXQoLyB8LC8pOw0KICAgIHZhciBwcz1jb21tZW50c1tpXS5wYXJlbnROb2RlLmdldEF0dHJpYnV0ZSgndHJhbnNmb3JtJykubWF0Y2goL1woKFxTKnxcUypcc1xTKilcKS8pWzFdLnNwbGl0KC8gfCwvKTsNCiAgICB2YXIgeD1wYXJzZUZsb2F0KGNzWzBdKStwYXJzZUZsb2F0KHBzWzBdKTsNCiAgICB2YXIgeT1wYXJzZUZsb2F0KHBzWzFdKTsNCiAgICB4PXgudG9zdWl0c3ZnKCk7DQogICAgeT15LnRvc3VpdHN2ZygpOw0KICAgIHBvcHVwLnNldEF0dHJpYnV0ZSgndHJhbnNmb3JtJywndHJhbnNsYXRlKCcreCsnLCcreSsnKScpOw0KICAgIHBvcHVwLnNldEF0dHJpYnV0ZSgnY29tbWVudCcsJycpOw0KICAgIHBvcHVwLnN0eWxlLmRpc3BsYXk9J25vbmUnOw0KICAgIHBvcHVwLnNldEF0dHJpYnV0ZSgnZWQ6Y29tbWVudGlkJyxjb21tZW50c1tpXS5wYXJlbnROb2RlLmlkKTsNCiAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcjc3ZnLWNvbnRhaW5lciA+IHN2ZycpLmFwcGVuZENoaWxkKHBvcHVwKTsNCiAgICBjb21tZW50c1tpXS5vbm1vdXNlb3Zlcj1mdW5jdGlvbiAoKSB7DQogICAgICAgIHZhciBjb21tZW50aWQ9dGhpcy5wYXJlbnROb2RlLmlkOw0KICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5kaXNwbGF5PSdibG9jayc7DQogICAgICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDpjb21tZW50aWQ9JyIrY29tbWVudGlkKyInXVtjb21tZW50XSIpLnN0eWxlLmRpc3BsYXk9J2Jsb2NrJzsNCiAgICB9Ow0KICAgIGNvbW1lbnRzW2ldLm9ubW91c2VvdXQ9ZnVuY3Rpb24gKCkgew0KICAgICAgICB2YXIgY29tbWVudGlkPXRoaXMucGFyZW50Tm9kZS5pZDsNCi8vICAgICAgICB3aW5kb3cuZ2V0U2VsZWN0aW9uKCkucmVtb3ZlQWxsUmFuZ2VzKCk7DQogICAgICAgIHRoaXMucXVlcnlTZWxlY3RvcigncmVjdCcpLnN0eWxlLmRpc3BsYXk9J25vbmUnOw0KICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6Y29tbWVudGlkPSciK2NvbW1lbnRpZCsiJ11bY29tbWVudF0iKS5zdHlsZS5kaXNwbGF5PSdub25lJzsNCiAgICB9DQp9DQovLy0tY29tbWVudA0KLy9ub3RlLS0NCmlmKCF1YSl7DQogICAgdmFyIG5vdGVzPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJ2c+Z1tlZFxcOm5vdGVdJyk7DQogICAgZnVuY3Rpb24gZ2V0d2gocyxwKSB7DQogICAgICAgIHZhciBtYWlucD1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCdkaXYnKTsNCiAgICAgICAgbWFpbnAuc3R5bGUuY3NzVGV4dD1zOw0KICAgICAgICBtYWlucC5zdHlsZS5kaXNwbGF5PSdpbmxpbmUtYmxvY2snOw0KICAgICAgICBtYWlucC5pbm5lckhUTUw9cDsNCiAgICAgICAgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChtYWlucCk7DQogICAgICAgIHZhciB3PW1haW5wLmNsaWVudFdpZHRoOw0KICAgICAgICB2YXIgaD1tYWlucC5jbGllbnRIZWlnaHQ7DQogICAgICAgIGRvY3VtZW50LmJvZHkucmVtb3ZlQ2hpbGQobWFpbnApOw0KICAgICAgICByZXR1cm4gW3csaF0NCiAgICB9DQogICAgZm9yKHZhciBpPTA7aTxub3Rlcy5sZW5ndGg7aSsrKXsNCiAgICAgICAgdmFyIGE9bm90ZXNbaV0uZ2V0QXR0cmlidXRlKCdlZDpub3RlJyk7DQogICAgICAgIHZhciBtYWlucD1hLm1hdGNoKC88cChbXFNcc10qKTxcL3A+L2cpWzBdOw0KICAgICAgICB2YXIgbWFpbnM9YS5tYXRjaCgvc3R5bGU9IiguKj8pIi8pWzFdOw0KICAgICAgICB2YXIgb3V0PWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCdnJyk7DQogICAgICAgIHZhciBvbGluZT1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywncmVjdCcpOw0KICAgICAgICB2YXIgcG9wdXA9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsJ2ZvcmVpZ25PYmplY3QnKTsNCiAgICAgICAgdmFyIGhvdmVyPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCdyZWN0Jyk7DQogICAgICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnZmlsbCcsJyNjZGNkZmYnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCd4JywnMCcpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3knLCcwJyk7DQogICAgICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnaGVpZ2h0JywnMTYnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCd3aWR0aCcsJzE2Jyk7DQogICAgICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnZmlsbC1vcGFjaXR5JywnMC42Jyk7DQogICAgICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgndHJhbnNmb3JtJyxub3Rlc1tpXS5xdWVyeVNlbGVjdG9yKCd1c2UnKS5nZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScpKTsNCiAgICAgICAgaG92ZXIuc3R5bGUuZGlzcGxheT0nbm9uZSc7DQogICAgICAgIG5vdGVzW2ldLmFwcGVuZENoaWxkKGhvdmVyKTsNCiAgICAgICAgcG9wdXAuc3R5bGUuY3NzVGV4dD1tYWluczsNCiAgICAgICAgcG9wdXAuaW5uZXJIVE1MPW1haW5wOw0KICAgICAgICB2YXIgd2g9Z2V0d2gobWFpbnMsbWFpbnApOw0KICAgICAgICBwb3B1cC5zZXRBdHRyaWJ1dGUoJ3dpZHRoJyx3aFswXSsxNik7DQogICAgICAgIHBvcHVwLnNldEF0dHJpYnV0ZSgnaGVpZ2h0Jyx3aFsxXSs4KTsNCiAgICAgICAgcG9wdXAuc2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nLCd0cmFuc2xhdGUoOCw0KScpOw0KICAgICAgICBwb3B1cC5zdHlsZS50ZXh0QWxpZ249J2xlZnQnOw0KICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ3gnLCcwJyk7DQogICAgICAgIG9saW5lLnNldEF0dHJpYnV0ZSgneScsJzAnKTsNCiAgICAgICAgb2xpbmUuc2V0QXR0cmlidXRlKCd3aWR0aCcsd2hbMF0rMTYpOw0KICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsd2hbMV0rOCk7DQogICAgICAgIG9saW5lLnNldEF0dHJpYnV0ZSgnc3Ryb2tlJywnI2EyN2EwMCcpOw0KICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCcjZmZlNzlkJyk7DQogICAgICAgIG91dC5hcHBlbmRDaGlsZChvbGluZSk7DQogICAgICAgIG91dC5hcHBlbmRDaGlsZChwb3B1cCk7DQogICAgICAgIG91dC5zZXRBdHRyaWJ1dGUoJ25vdGUnLCcnKTsNCiAgICAgICAgb3V0LnN0eWxlLmRpc3BsYXk9J25vbmUnOw0KICAgICAgICBvdXQuc2V0QXR0cmlidXRlKCdlZDpub3RlaWQnLG5vdGVzW2ldLnBhcmVudE5vZGUuaWQpOw0KICAgICAgICBvdXQub25tb3VzZW92ZXI9ZnVuY3Rpb24gKCkgew0KICAgICAgICAgICAgdGhpcy5zdHlsZS5kaXNwbGF5PSdibG9jayc7DQogICAgICAgIH07DQogICAgICAgIG91dC5vbm1vdXNlb3V0PWZ1bmN0aW9uICgpIHsNCi8vICAgICAgICB3aW5kb3cuZ2V0U2VsZWN0aW9uID8gd2luZG93LmdldFNlbGVjdGlvbigpLnJlbW92ZVJhbmdlKHdpbmRvdy5nZXRTZWxlY3Rpb24oKS5yZSk6ZG9jdW1lbnQuc2VsZWN0aW9uLmVtcHR5KCk7DQoNCiAgICAgICAgICAgIHRoaXMuc3R5bGUuZGlzcGxheT0nbm9uZSc7DQogICAgICAgIH07DQogICAgICAgIHZhciBjcz1ub3Rlc1tpXS5xdWVyeVNlbGVjdG9yKCd1c2UnKS5nZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScpLm1hdGNoKC9cKChcUyp8XFMqXHNcUyopXCkvKVsxXS5zcGxpdCgvIHwsLyk7DQogICAgICAgIHZhciBwcz1ub3Rlc1tpXS5wYXJlbnROb2RlLmdldEF0dHJpYnV0ZSgndHJhbnNmb3JtJykubWF0Y2goL1woKFxTKnxcUypcc1xTKilcKS8pWzFdLnNwbGl0KC8gfCwvKTsNCiAgICAgICAgdmFyIHg9cGFyc2VGbG9hdChjc1swXSkrcGFyc2VGbG9hdChwc1swXSk7DQogICAgICAgIHZhciB5PXBhcnNlRmxvYXQocHNbMV0pOw0KICAgICAgICB4PXgudG9zdWl0c3ZnKCk7DQogICAgICAgIHk9eS50b3N1aXRzdmcoKTsNCiAgICAgICAgb3V0LnNldEF0dHJpYnV0ZSgndHJhbnNmb3JtJywndHJhbnNsYXRlKCcreCsnLCcreSsnKScpOw0KICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcjc3ZnLWNvbnRhaW5lciA+IHN2ZycpLmFwcGVuZENoaWxkKG91dCk7DQogICAgICAgIG5vdGVzW2ldLm9ubW91c2VvdmVyPWZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgIHZhciBub3RlaWQ9dGhpcy5wYXJlbnROb2RlLmlkOw0KICAgICAgICAgICAgdGhpcy5xdWVyeVNlbGVjdG9yKCdyZWN0Jykuc3R5bGUuZGlzcGxheT0nYmxvY2snOw0KICAgICAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOm5vdGVpZD0nIitub3RlaWQrIiddW25vdGVdIikuc3R5bGUuZGlzcGxheT0nYmxvY2snOw0KICAgICAgICB9Ow0KICAgICAgICBub3Rlc1tpXS5vbm1vdXNlb3V0PWZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgIHZhciBub3RlaWQ9dGhpcy5wYXJlbnROb2RlLmlkOw0KLy8gICAgICAgIHdpbmRvdy5nZXRTZWxlY3Rpb24oKS5yZW1vdmVBbGxSYW5nZXMoKTsNCiAgICAgICAgICAgIHRoaXMucXVlcnlTZWxlY3RvcigncmVjdCcpLnN0eWxlLmRpc3BsYXk9J25vbmUnOw0KICAgICAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOm5vdGVpZD0nIitub3RlaWQrIiddW25vdGVdIikuc3R5bGUuZGlzcGxheT0nbm9uZSc7DQogICAgICAgIH0NCiAgICB9DQp9ZWxzZXsNCiAgICBjb25zb2xlLmxvZygn5oqx5q2J77yMSUXmtY/op4jlmajkuI3mlK/mjIFub3Rl6Kej5p6Q77yM6K+35L2/55So5YW25LuW5YaF5qC45rWP6KeI5Zmo44CC6LCi6LCi77yBJykNCn0NCi8vLS1ub3RlDQovL2h5cGVybGluay0tDQp2YXIgbGlua3M9ZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnZz5nW2VkXFw6aHlwZXJsaW5rXScpOw0KZnVuY3Rpb24gZ2V0bWF4bGVuKGFycixicnIpIHsNCiAgICB2YXIgbD0wOw0KICAgIHZhciBsbD0wOw0KICAgIGZvcih2YXIgaj0wO2o8YXJyLmxlbmd0aDtqKyspew0KICAgICAgICB2YXIgZT1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywndGV4dCcpOw0KICAgICAgICBpZighaXNOYU4obGlua2FycltqXSkpew0KICAgICAgICAgICAgZS50ZXh0Q29udGVudD0nUGFnZS0nK2FycltqXTsNCiAgICAgICAgfWVsc2V7DQogICAgICAgICAgICBlLnRleHRDb250ZW50PWFycltqXTsNCiAgICAgICAgfQ0KICAgICAgICBlLnN0eWxlLmZvbnRTaXplPScxMnB4JzsNCiAgICAgICAgZG9jdW1lbnQuYm9keS5nZXRFbGVtZW50c0J5VGFnTmFtZSgnc3ZnJylbMF0uYXBwZW5kQ2hpbGQoZSk7DQogICAgICAgIHZhciBldz1lLmdldEJCb3goKS53aWR0aDsNCiAgICAgICAgZG9jdW1lbnQuYm9keS5nZXRFbGVtZW50c0J5VGFnTmFtZSgnc3ZnJylbMF0ucmVtb3ZlQ2hpbGQoZSk7DQogICAgICAgIHZhciBoPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCd0ZXh0Jyk7DQogICAgICAgIGgudGV4dENvbnRlbnQ9YnJyW2pdOw0KICAgICAgICBoLnN0eWxlLmZvbnRTaXplPScxMnB4JzsNCiAgICAgICAgaC5zdHlsZS5mb250V2VpZ2h0PSdib2xkJzsNCiAgICAgICAgZG9jdW1lbnQuYm9keS5nZXRFbGVtZW50c0J5VGFnTmFtZSgnc3ZnJylbMF0uYXBwZW5kQ2hpbGQoaCk7DQogICAgICAgIHZhciBodz1oLmdldEJCb3goKS53aWR0aDsNCiAgICAgICAgZG9jdW1lbnQuYm9keS5nZXRFbGVtZW50c0J5VGFnTmFtZSgnc3ZnJylbMF0ucmVtb3ZlQ2hpbGQoaCk7DQogICAgICAgIGw9ZXc+aHc/ZXc6aHc7DQogICAgICAgIGxsPWw+bGw/bDpsbDsNCiAgICB9DQogICAgcmV0dXJuIGxsOw0KfQ0KZm9yKHZhciBpPTA7aTxsaW5rcy5sZW5ndGg7aSsrKXsNCiAgICB2YXIgcG9wdXA9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsJ2cnKTsNCiAgICB2YXIgaG92ZXI9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsJ3JlY3QnKTsNCiAgICB2YXIgZGVzY2Fycj1bXTsNCiAgICB2YXIgbGlua2Fycj1bXTsNCiAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCcjY2RjZGZmJyk7DQogICAgaG92ZXIuc2V0QXR0cmlidXRlKCd4JywnMCcpOw0KICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgneScsJzAnKTsNCiAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsJzE2Jyk7DQogICAgaG92ZXIuc2V0QXR0cmlidXRlKCd3aWR0aCcsJzE2Jyk7DQogICAgaG92ZXIuc2V0QXR0cmlidXRlKCdmaWxsLW9wYWNpdHknLCcwLjYnKTsNCiAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScsbGlua3NbaV0ucXVlcnlTZWxlY3RvcigndXNlJykuZ2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nKSk7DQogICAgaG92ZXIuc3R5bGUuZGlzcGxheT0nbm9uZSc7DQogICAgbGlua3NbaV0uYXBwZW5kQ2hpbGQoaG92ZXIpOw0KICAgIC8vIGNvbnNvbGUubG9nKGxpbmtzW2ldLmdldEF0dHJpYnV0ZSgnZWQ6aHlwZXJsaW5rJykpOw0KICAgIHZhciBhPUpTT04ucGFyc2UobGlua3NbaV0uZ2V0QXR0cmlidXRlKCdlZDpoeXBlcmxpbmsnKSk7DQogICAgdmFyIGNzPWxpbmtzW2ldLnF1ZXJ5U2VsZWN0b3IoJ3VzZScpLmdldEF0dHJpYnV0ZSgndHJhbnNmb3JtJykubWF0Y2goL1woKFxTKnxcUypcc1xTKilcKS8pWzFdLnNwbGl0KC8gfCwvKTsNCiAgICB2YXIgcHM9bGlua3NbaV0ucGFyZW50Tm9kZS5nZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScpLm1hdGNoKC9cKChcUyp8XFMqXHNcUyopXCkvKVsxXS5zcGxpdCgvIHwsLyk7DQogICAgdmFyIHg9cGFyc2VGbG9hdChjc1swXSkrcGFyc2VGbG9hdChwc1swXSk7DQogICAgdmFyIHk9cGFyc2VGbG9hdChwc1sxXSk7DQogICAgeD14LnRvc3VpdHN2ZygpOw0KICAgIHk9eS50b3N1aXRzdmcoKTsNCiAgICB2YXIgYWw9YS5sZW5ndGg7DQogICAgZm9yKHZhciBqPTA7ajxhbDtqKyspew0KICAgICAgICBsaW5rYXJyLnB1c2goYVtqXS5saW5rKTsNCiAgICAgICAgZGVzY2Fyci5wdXNoKGFbal0uZGVzYyk7DQogICAgfQ0KICAgIHBvcHVwLnNldEF0dHJpYnV0ZSgndHJhbnNmb3JtJywndHJhbnNsYXRlKCcreCsnLCcreSsnKScpOw0KICAgIHZhciBtYXg9Z2V0bWF4bGVuKGxpbmthcnIsZGVzY2Fycik7DQogICAgZm9yKHZhciBrPTA7azxhbDtrKyspew0KICAgICAgICB2YXIgYz1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywnYScpOw0KICAgICAgICB2YXIgZD1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywncmVjdCcpOw0KICAgICAgICB2YXIgZT1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywndGV4dCcpOw0KICAgICAgICB2YXIgZj1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywndGV4dCcpOw0KICAgICAgICBpZihpc05hTihsaW5rYXJyW2tdKSl7DQogICAgICAgICAgICBjLnNldEF0dHJpYnV0ZSgnaHJlZicsbGlua2FycltrXSk7DQogICAgICAgICAgICBjLnNldEF0dHJpYnV0ZSgndGFyZ2V0JywnX2JsYW5rJyk7DQogICAgICAgICAgICBlLnRleHRDb250ZW50PWxpbmthcnJba107DQogICAgICAgIH1lbHNlew0KICAgICAgICAgICAgZS50ZXh0Q29udGVudD0nUGFnZS0nK2xpbmthcnJba107DQogICAgICAgICAgICBjLnNldEF0dHJpYnV0ZSgnaHJlZicsJyMnK2xpbmthcnJba10pOw0KICAgICAgICB9DQogICAgICAgIGQuc2V0QXR0cmlidXRlKCd3aWR0aCcsbWF4KzEwKTsNCiAgICAgICAgZC5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsJzMzJyk7DQogICAgICAgIGQuc2V0QXR0cmlidXRlKCdzdHJva2UnLCcjOTk5OTk5Jyk7DQogICAgICAgIGQuc2V0QXR0cmlidXRlKCdmaWxsJywnd2hpdGUnKTsNCiAgICAgICAgZC5zZXRBdHRyaWJ1dGUoJ3knLDMzKmspOw0KICAgICAgICBmLnRleHRDb250ZW50PWRlc2NhcnJba107DQogICAgICAgIGYuc3R5bGUuZm9udFNpemU9JzEycHgnOw0KICAgICAgICBmLnN0eWxlLmZvbnRXZWlnaHQ9J2JvbGQnOw0KICAgICAgICBmLnNldEF0dHJpYnV0ZSgneCcsNSk7DQogICAgICAgIGYuc2V0QXR0cmlidXRlKCd5JywzMyprKzEyKTsNCiAgICAgICAgZS5zdHlsZS5mb250U2l6ZT0nMTJweCc7DQogICAgICAgIGUuc2V0QXR0cmlidXRlKCd5JywzMyprKzI4KTsNCiAgICAgICAgZS5zZXRBdHRyaWJ1dGUoJ3gnLDUpOw0KICAgICAgICBjLmFwcGVuZENoaWxkKGQpOw0KICAgICAgICBjLmFwcGVuZENoaWxkKGYpOw0KICAgICAgICBjLmFwcGVuZENoaWxkKGUpOw0KICAgICAgICBjLm9ubW91c2VvdmVyPWZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgIHRoaXMucXVlcnlTZWxlY3RvcigncmVjdCcpLnN0eWxlLmZpbGw9JyNlMWUxZmYnDQogICAgICAgIH07DQogICAgICAgIGMub25tb3VzZW91dD1mdW5jdGlvbiAoKSB7DQogICAgICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5maWxsPSd3aGl0ZScNCiAgICAgICAgfTsNCiAgICAgICAgcG9wdXAuYXBwZW5kQ2hpbGQoYyk7DQogICAgfQ0KICAgIHBvcHVwLnN0eWxlLmRpc3BsYXk9J25vbmUnOw0KICAgIHBvcHVwLnNldEF0dHJpYnV0ZSgnaHlwZXJsaW5rJywnJyk7DQogICAgcG9wdXAuc2V0QXR0cmlidXRlKCdlZDpsaW5raWQnLGxpbmtzW2ldLnBhcmVudE5vZGUuaWQpOw0KICAgIHBvcHVwLm9ubW91c2VvdmVyPWZ1bmN0aW9uICgpIHsNCiAgICAgICAgdGhpcy5zdHlsZS5kaXNwbGF5PSdibG9jayc7DQogICAgfTsNCiAgICBwb3B1cC5vbmNsaWNrPWZ1bmN0aW9uICgpIHsNCiAgICAgICAgdGhpcy5zdHlsZS5kaXNwbGF5PSdub25lJzsNCiAgICB9Ow0KICAgIHBvcHVwLm9ubW91c2VvdXQ9ZnVuY3Rpb24gKCkgew0KICAgICAgICB0aGlzLnN0eWxlLmRpc3BsYXk9J25vbmUnOw0KICAgIH07DQogICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI3N2Zy1jb250YWluZXIgPiBzdmcnKS5hcHBlbmRDaGlsZChwb3B1cCk7DQogICAgbGlua3NbaV0ub25tb3VzZW92ZXI9ZnVuY3Rpb24gKCkgew0KICAgICAgICB2YXIgbGlua2lkPXRoaXMucGFyZW50Tm9kZS5pZDsNCiAgICAgICAgdGhpcy5xdWVyeVNlbGVjdG9yKCdyZWN0Jykuc3R5bGUuZGlzcGxheT0nYmxvY2snOw0KICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6bGlua2lkPSciK2xpbmtpZCsiJ11baHlwZXJsaW5rXSIpLnN0eWxlLmRpc3BsYXk9J2Jsb2NrJzsNCiAgICB9DQogICAgbGlua3NbaV0ub25tb3VzZW91dD1mdW5jdGlvbiAoKSB7DQogICAgICAgIHZhciBsaW5raWQ9dGhpcy5wYXJlbnROb2RlLmlkOw0KICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5kaXNwbGF5PSdub25lJzsNCiAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOmxpbmtpZD0nIitsaW5raWQrIiddW2h5cGVybGlua10iKS5zdHlsZS5kaXNwbGF5PSdub25lJzsNCiAgICB9DQp9DQovLy0taHlwZXJsaW5rDQovL2luaXRpYWxpemUtLQ0KdmFyIHNoYXBlPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJ2dbZWRcXDp0b2d0b3BpY2lkXScpOw0KdmFyIG1JZD1kb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdnW2VkXFw6dG9waWN0eXBlXScpOw0KdmFyIGRhdGFUcmVlPXt9Ow0KdmFyIGV4dHJhUmVsYT17fTsNCnZhciBjaGVja0lEPScnOw0KZm9yKHZhciBpPTA7aTxtSWQubGVuZ3RoO2krKyl7DQogICAgdmFyIHR5cGU9bUlkW2ldLmdldEF0dHJpYnV0ZSgnZWQ6dG9waWN0eXBlJyk7DQogICAgdmFyIHNpZD1tSWRbaV0uaWQ7DQogICAgaWYodHlwZSE9PSdjYWxsb3V0Jyl7DQogICAgICAgIGluaXQoc2lkLGRhdGFUcmVlKQ0KICAgIH0NCn0NCmZ1bmN0aW9uIGluaXQoaWQsIG9iaikgew0KICAgIHZhciBjaGlsZHMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJnW2VkXFw6cGFyZW50aWQ9JyIgKyBpZCArICInXTpub3QoW2VkXFw6dG9waWN0eXBlXSkiKTsNCiAgICB2YXIgY2FsbHMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJnW2VkXFw6cGFyZW50aWQ9JyIgKyBpZCArICInXVtlZFxcOnRvcGljdHlwZV0iKTsNCiAgICB2YXIgc3VtbWFyeSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoInBhdGhbZWRcXDpwYXJlbnRpZCo9JyIgKyBpZCArICInXVtlZFxcOnR5cGU9J3N1bW1hcnknXSIpOw0KICAgIHZhciBib3VuZGFyeT0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgicGF0aFtlZFxcOnBhcmVudGlkKj0nIiArIGlkICsgIiddW2VkXFw6dHlwZT0nYm91bmRhcnknXSIpOw0KICAgIHZhciByZWxhZnJvbT1kb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJnW2VkXFw6ZnJvbWlkKj0nIiArIGlkICsgIiddW2VkXFw6dHlwZT0ncmVsYXRpb24nXSIpOw0KICAgIHZhciByZWxhdG89ZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgiZ1tlZFxcOnRvaWQqPSciICsgaWQgKyAiJ11bZWRcXDp0eXBlPSdyZWxhdGlvbiddIik7DQogICAgb2JqWyJtIiArIGlkXSA9IHt9Ow0KICAgIHZhciB0eXBlID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoaWQpLmdldEF0dHJpYnV0ZSgnZWQ6dG9waWN0eXBlJyk7DQogICAgdmFyIGl3PWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGlkKS5nZXRBdHRyaWJ1dGUoJ2VkOndpZHRoJyk7DQogICAgdmFyIGloPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGlkKS5nZXRBdHRyaWJ1dGUoJ2VkOmhlaWdodCcpOw0KICAgIGlmICh0eXBlKSB7DQogICAgICAgIG9ialsibSIgKyBpZF0udHlwZSA9IHR5cGU7DQogICAgfQ0KICAgIGlmKGl3JiZpaCl7DQogICAgICAgIG9ialsibSIgKyBpZF0ud2lkdGggPWl3Ow0KICAgICAgICBvYmpbIm0iICsgaWRdLmhlaWdodCA9aWg7DQogICAgfQ0KICAgIGlmIChyZWxhZnJvbS5sZW5ndGggIT09IDApIHsNCiAgICAgICAgb2JqWyJtIiArIGlkXS5yZWxhZnJvbSA9IHt9Ow0KICAgICAgICBmb3IgKHZhciBpID0gMDsgaSA8IHJlbGFmcm9tLmxlbmd0aDsgaSsrKSB7DQogICAgICAgICAgICB2YXIgaW5kZXhpZCA9IHJlbGFmcm9tW2ldLmlkOw0KICAgICAgICAgICAgdmFyIHRvaWQgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChpbmRleGlkKS5nZXRBdHRyaWJ1dGUoJ2VkOnRvaWQnKTsNCiAgICAgICAgICAgIGlmIChleHRyYVJlbGFbaW5kZXhpZF0gPT09IHVuZGVmaW5lZCkgew0KICAgICAgICAgICAgICAgIGV4dHJhUmVsYVtpbmRleGlkXSA9IHsNCiAgICAgICAgICAgICAgICAgICAgaWQ6IGluZGV4aWQsDQogICAgICAgICAgICAgICAgICAgIGZyb21pZDogaWQsDQogICAgICAgICAgICAgICAgICAgIHRvaWQ6IHRvaWQsDQogICAgICAgICAgICAgICAgICAgIGlzQzogZmFsc2UNCiAgICAgICAgICAgICAgICB9Ow0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgb2JqWyJtIiArIGlkXS5yZWxhZnJvbVtpbmRleGlkXT17fTsNCiAgICAgICAgICAgIG9ialsibSIgKyBpZF0ucmVsYWZyb20uZGlzcGxheT1kb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCkuc3R5bGUuZGlzcGxheSAhPT0gJ25vbmUnPydibG9jayc6J25vbmUnOw0KICAgICAgICB9DQogICAgfQ0KICAgIGlmIChyZWxhdG8ubGVuZ3RoICE9PSAwKSB7DQogICAgICAgIG9ialsibSIgKyBpZF0ucmVsYXRvID0ge307DQogICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgcmVsYXRvLmxlbmd0aDsgaSsrKSB7DQogICAgICAgICAgICB2YXIgaW5kZXhpZD1yZWxhdG9baV0uaWQ7DQogICAgICAgICAgICB2YXIgZnJvbWlkPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGluZGV4aWQpLmdldEF0dHJpYnV0ZSgnZWQ6ZnJvbWlkJyk7DQogICAgICAgICAgICBpZihleHRyYVJlbGFbaW5kZXhpZF0gPT09IHVuZGVmaW5lZCl7DQogICAgICAgICAgICAgICAgZXh0cmFSZWxhW2luZGV4aWRdPXsNCiAgICAgICAgICAgICAgICAgICAgaWQ6aW5kZXhpZCwNCiAgICAgICAgICAgICAgICAgICAgZnJvbWlkOmZyb21pZCwNCiAgICAgICAgICAgICAgICAgICAgdG9pZDppZCwNCiAgICAgICAgICAgICAgICAgICAgaXNDOmZhbHNlDQogICAgICAgICAgICAgICAgfTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIG9ialsibSIgKyBpZF0ucmVsYXRvW2luZGV4aWRdPXt9Ow0KICAgICAgICAgICAgb2JqWyJtIiArIGlkXS5yZWxhdG8uZGlzcGxheT1kb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCkuc3R5bGUuZGlzcGxheSAhPT0gJ25vbmUnPydibG9jayc6J25vbmUnOw0KICAgICAgICB9DQogICAgfQ0KICAgIGlmIChjaGlsZHMubGVuZ3RoICE9PSAwKSB7DQogICAgICAgIG9ialsibSIgKyBpZF0uY2hpbGQgPSB7fTsNCiAgICAgICAgaWYgKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDp0b2d0b3BpY2lkPSciICsgaWQgKyAiJ10iKSkgew0KICAgICAgICAgICAgLy8gY29uc29sZS5sb2coZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOnRvZ3RvcGljaWQ9JyIgKyBpZCArICInXSIpLmNoaWxkTm9kZXNbMF0uZ2V0QXR0cmlidXRlKCd4bGluazpocmVmJykpOw0KICAgICAgICAgICAgdmFyIHRvZyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDp0b2d0b3BpY2lkPSciICsgaWQgKyAiJ10iKS5jaGlsZHJlblswXS5nZXRBdHRyaWJ1dGUoJ3hsaW5rOmhyZWYnKS5zbGljZSgxKTsNCiAgICAgICAgICAgIG9ialsibSIgKyBpZF0udG9ndHlwZSA9IHRvZzsNCiAgICAgICAgfQ0KICAgICAgICBmb3IgKHZhciBpID0gMDsgaSA8IGNoaWxkcy5sZW5ndGg7IGkrKykgew0KICAgICAgICAgICAgdmFyIGNpZCA9IGNoaWxkc1tpXS5pZDsNCiAgICAgICAgICAgIGluaXQoY2lkLCBvYmpbIm0iICsgaWRdLmNoaWxkKTsNCiAgICAgICAgfQ0KICAgIH0NCiAgICBpZiAoY2FsbHMubGVuZ3RoICE9PSAwKSB7DQogICAgICAgIG9ialsibSIgKyBpZF0uY2FsbCA9IHt9Ow0KICAgICAgICBmb3IgKHZhciBpID0gMDsgaSA8IGNhbGxzLmxlbmd0aDsgaSsrKSB7DQogICAgICAgICAgICB2YXIgY2lkID0gY2FsbHNbaV0uaWQ7DQogICAgICAgICAgICBpbml0KGNpZCwgb2JqWyJtIiArIGlkXS5jYWxsKTsNCiAgICAgICAgfQ0KICAgIH0NCiAgICBpZiAoYm91bmRhcnkubGVuZ3RoICE9PSAwKSB7DQogICAgICAgIG9ialsibSIgKyBpZF0uYm91bmRhcnkgPSB7fTsNCiAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBib3VuZGFyeS5sZW5ndGg7IGkrKykgew0KICAgICAgICAgICAgdmFyIGNpZCA9Ym91bmRhcnlbaV0uaWQ7DQogICAgICAgICAgICBpbml0KGNpZCwgb2JqWyJtIiArIGlkXS5ib3VuZGFyeSk7DQogICAgICAgIH0NCiAgICB9DQogICAgaWYgKHN1bW1hcnkubGVuZ3RoICE9PSAwKSB7DQogICAgICAgIG9ialsibSIgKyBpZF0uc3VtbWFyeSA9IHt9Ow0KICAgICAgICBmb3IgKHZhciBpID0gMDsgaSA8IHN1bW1hcnkubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgIHZhciBjaWQgPSBzdW1tYXJ5W2ldLmlkOw0KICAgICAgICAgICAgaW5pdChjaWQsIG9ialsibSIgKyBpZF0uc3VtbWFyeSk7DQogICAgICAgIH0NCiAgICB9DQp9DQovLy0taW5pdGlhbGl6ZQ0KLy90b2dnbGVkaXNwbGF5LS0NCnZhciBjaGFpbkFycj1bXTsNCmZ1bmN0aW9uIGdldGNoYWluKGlkKXsNCiAgICBjaGFpbkFyci51bnNoaWZ0KCdtJytpZCk7DQogICAgdmFyIHBhcmVudD1kb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCkuZ2V0QXR0cmlidXRlKCdlZDpwYXJlbnRpZCcpOw0KICAgIGlmKCFwYXJlbnQpew0KICAgICAgICByZXR1cm47DQogICAgfQ0KICAgIGdldGNoYWluKHBhcmVudCk7DQp9DQpmdW5jdGlvbiBnZXRvYmooaWQpIHsNCiAgICBjaGFpbkFycj1bXTsNCiAgICBnZXRjaGFpbihpZCk7DQogICAgdmFyIG1haW49Y2hhaW5BcnJbMF07DQogICAgaWYoY2hhaW5BcnIubGVuZ3RoPjEpew0KICAgICAgICB2YXIgb2JqPWRhdGFUcmVlW21haW5dOw0KICAgICAgICAvLyBjb25zb2xlLmxvZyhjaGFpbkFycik7DQogICAgICAgIGZvcih2YXIgaT0xO2k8Y2hhaW5BcnIubGVuZ3RoO2krKykgew0KICAgICAgICAgICAgdmFyIGEgPSBjaGFpbkFycltpXTsNCiAgICAgICAgICAgIGZvcih2YXIgaj0wO2o8T2JqZWN0LmtleXMob2JqKS5sZW5ndGg7aisrKXsNCiAgICAgICAgICAgICAgICB2YXIgY29iaj0gb2JqW09iamVjdC5rZXlzKG9iailbal1dW2FdOw0KICAgICAgICAgICAgICAgIGlmKGNvYmopew0KICAgICAgICAgICAgICAgICAgICBvYmo9Y29iajsNCiAgICAgICAgICAgICAgICAgICAgY29udGludWUNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgcmV0dXJuIG9iag0KICAgIH1lbHNlew0KICAgICAgICB2YXIgb2JqPWRhdGFUcmVlW21haW5dOw0KICAgICAgICByZXR1cm4gb2JqDQogICAgfQ0KDQp9DQpmb3IodmFyIGk9MDtpPHNoYXBlLmxlbmd0aDtpKyspew0KICAgIHNoYXBlW2ldLm9uY2xpY2s9ZnVuY3Rpb24gKCkgew0KICAgICAgICB2YXIgaWQ9TnVtYmVyKHRoaXMuZ2V0QXR0cmlidXRlKCdlZDp0b2d0b3BpY2lkJykpOw0KICAgICAgICB2YXIgb2JqPWdldG9iaihpZCk7DQoNCiAgICAgICAgdmFyIHR5cGU9b2JqLnRvZ3R5cGU9PT0nbWludXMnPydwbHVzJzonbWludXMnOw0KICAgICAgICB2YXIgZGlzcGxheT1vYmoudG9ndHlwZT09PSdtaW51cyc/J25vbmUnOidibG9jayc7DQogICAgICAgIHRoaXMuY2hpbGRyZW5bMF0uc2V0QXR0cmlidXRlKCd4bGluazpocmVmJywnIycrdHlwZSk7DQogICAgICAgIG9iai50b2d0eXBlPXR5cGU7DQogICAgICAgIGNoZWNrSUQ9b2JqOw0KDQogICAgICAgIHV0ZChvYmosaWQsZGlzcGxheSk7DQogICAgICAgIGV4dHJhUmVsYUZpbigpOw0KICAgIH0NCn0NCmZ1bmN0aW9uIHV0ZChvYmosaWQsc2hvdyxvYykgew0KDQogICAgdmFyIHBzaG93PWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGlkKS5zdHlsZS5kaXNwbGF5IT09ICdub25lJz8nYmxvY2snOidub25lJzsNCiAgICBpZiAob2JqLnJlbGFmcm9tKXsNCiAgICAgICAgaWYob2JqLnJlbGFmcm9tLmRpc3BsYXkhPT0gcHNob3cpew0KICAgICAgICAgICAgdmFyIHJlbGFmcm9tcz1PYmplY3Qua2V5cyhvYmoucmVsYWZyb20pOw0KICAgICAgICAgICAgcmVsYWZyb21zLnNwbGljZShyZWxhZnJvbXMuaW5kZXhPZignZGlzcGxheScpLDEpOw0KICAgICAgICAgICAgZm9yKHZhciBrPTA7azxyZWxhZnJvbXMubGVuZ3RoO2srKyl7DQogICAgICAgICAgICAgICAgdmFyIGQ9cmVsYWZyb21zW2tdOw0KICAgICAgICAgICAgICAgIGV4dHJhUmVsYVtkXS5pc0M9dHJ1ZTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIG9iai5yZWxhZnJvbS5kaXNwbGF5ID0gcHNob3c7DQogICAgICAgIH0NCiAgICB9DQogICAgaWYgKG9iai5yZWxhdG8pew0KICAgICAgICBpZihvYmoucmVsYXRvLmRpc3BsYXkhPT0gcHNob3cpew0KICAgICAgICAgICAgdmFyIHJlbGF0b3M9T2JqZWN0LmtleXMob2JqLnJlbGF0byk7DQogICAgICAgICAgICByZWxhdG9zLnNwbGljZShyZWxhdG9zLmluZGV4T2YoJ2Rpc3BsYXknKSwxKTsNCiAgICAgICAgICAgIGZvcih2YXIgaz0wO2s8cmVsYXRvcy5sZW5ndGg7aysrKXsNCiAgICAgICAgICAgICAgICB2YXIgZD1yZWxhdG9zW2tdOw0KICAgICAgICAgICAgICAgIGV4dHJhUmVsYVtkXS5pc0M9dHJ1ZTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIG9iai5yZWxhdG8uZGlzcGxheSA9IHBzaG93Ow0KICAgICAgICB9DQogICAgfQ0KICAgIGlmKG9iai5jYWxsKXsNCiAgICAgICAgdmFyIGNhbGxzPU9iamVjdC5rZXlzKG9iai5jYWxsKTsNCiAgICAgICAgaWYoY2hlY2tJRCE9PW9iail7DQogICAgICAgICAgICBmb3IodmFyIGk9MDtpIDwgY2FsbHMubGVuZ3RoO2krKyl7DQogICAgICAgICAgICAgICAgdmFyIGE9Y2FsbHNbaV0uc2xpY2UoMSk7DQogICAgICAgICAgICAgICAgdmFyIGI9b2JqLmNhbGxbY2FsbHNbaV1dOw0KICAgICAgICAgICAgICAgIHZhciBjPWIudG9ndHlwZTsNCiAgICAgICAgICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChhKS5zdHlsZS5kaXNwbGF5PXNob3c7DQogICAgICAgICAgICAgICAgaWYgKGIucmVsYWZyb20mJiFjKXsNCiAgICAgICAgICAgICAgICAgICAgaWYoYi5yZWxhZnJvbS5kaXNwbGF5IT09IHNob3cpew0KICAgICAgICAgICAgICAgICAgICAgICAgdmFyIHJlbGFmcm9tcz1PYmplY3Qua2V5cyhiLnJlbGFmcm9tKTsNCiAgICAgICAgICAgICAgICAgICAgICAgIHJlbGFmcm9tcy5zcGxpY2UocmVsYWZyb21zLmluZGV4T2YoJ2Rpc3BsYXknKSwxKTsNCiAgICAgICAgICAgICAgICAgICAgICAgIGZvcih2YXIgaz0wO2s8cmVsYWZyb21zLmxlbmd0aDtrKyspew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhciBkPXJlbGFmcm9tc1trXTsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBleHRyYVJlbGFbZF0uaXNDPXRydWU7DQogICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgICAgICBiLnJlbGFmcm9tLmRpc3BsYXkgPSBzaG93Ow0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmIChiLnJlbGF0byYmIWMpew0KICAgICAgICAgICAgICAgICAgICBpZihiLnJlbGF0by5kaXNwbGF5IT09IHNob3cpew0KICAgICAgICAgICAgICAgICAgICAgICAgdmFyIHJlbGF0b3M9T2JqZWN0LmtleXMoYi5yZWxhdG8pOw0KICAgICAgICAgICAgICAgICAgICAgICAgcmVsYXRvcy5zcGxpY2UocmVsYXRvcy5pbmRleE9mKCdkaXNwbGF5JyksMSk7DQogICAgICAgICAgICAgICAgICAgICAgICBmb3IodmFyIGs9MDtrPHJlbGF0b3MubGVuZ3RoO2srKyl7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGQ9cmVsYXRvc1trXTsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBleHRyYVJlbGFbZF0uaXNDPXRydWU7DQogICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgICAgICBiLnJlbGF0by5kaXNwbGF5ID0gc2hvdzsNCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZihjKXsNCiAgICAgICAgICAgICAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOnRvZ3RvcGljaWQ9JyIrYSsiJ10iKS5zdHlsZS5kaXNwbGF5PXNob3c7DQogICAgICAgICAgICAgICAgICAgIGlmKGM9PT0nbWludXMnKXsNCiAgICAgICAgICAgICAgICAgICAgICAgIHV0ZChiLGEsc2hvdykNCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICBpZiAoKGIuY2FsbHx8Yi5ib3VuZGFyeXx8Yi5zdW1tYXJ5KSYmYz09PSdwbHVzJykgew0KICAgICAgICAgICAgICAgICAgICAgICAgdXRkKGIsYSxzaG93LHRydWUpDQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgaWYoYi5jYWxsJiYhYykgew0KICAgICAgICAgICAgICAgICAgICB1dGQoYixhLHNob3csdHJ1ZSkNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgaWYgKGIuc3VtbWFyeSYmIWMpIHsNCiAgICAgICAgICAgICAgICAgICAgdXRkKGIsYSxzaG93KQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZiAoYi5ib3VuZGFyeSYmIWMpIHsNCiAgICAgICAgICAgICAgICAgICAgdXRkKGIsYSxzaG93KQ0KICAgICAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgfQ0KICAgIGlmKG9iai5zdW1tYXJ5KXsNCiAgICAgICAgdmFyIHN1bW1hcnlzPU9iamVjdC5rZXlzKG9iai5zdW1tYXJ5KTsNCiAgICAgICAgaWYoKGNoZWNrSUQhPT1vYmomJihvYmoudG9ndHlwZT09PSdtaW51cyd8fCFvYmoudG9ndHlwZSkpfHxjaGVja0lEPT09b2JqKXsNCiAgICAgICAgICAgIGZvcih2YXIgaT0wO2k8c3VtbWFyeXMubGVuZ3RoO2krKyl7DQogICAgICAgICAgICAgICAgdmFyIGE9c3VtbWFyeXNbaV0uc2xpY2UoMSk7DQogICAgICAgICAgICAgICAgdmFyIGI9b2JqLnN1bW1hcnlbc3VtbWFyeXNbaV1dOw0KICAgICAgICAgICAgICAgIC8vIGNvbnNvbGUubG9nKGEpOw0KICAgICAgICAgICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGEpLnN0eWxlLmRpc3BsYXk9c2hvdzsNCi8vICAgICAgICAgICAgICAgIGlmKGMpew0KLy8gICAgICAgICAgICAgICAgICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDp0b2d0b3BpY2lkPSciK2ErIiddIikuc3R5bGUuZGlzcGxheT1zaG93Ow0KLy8gICAgICAgICAgICAgICAgICAgIGlmKGM9PT0nbWludXMnKXsNCi8vICAgICAgICAgICAgICAgICAgICAgICAgdXRkKGIsc2hvdykNCi8vICAgICAgICAgICAgICAgICAgICB9DQovLyAgICAgICAgICAgICAgICAgICAgaWYgKGIuY2FsbCYmYz09PSdwbHVzJykgew0KLy8gICAgICAgICAgICAgICAgICAgICAgICB1dGQoYixzaG93LHRydWUpDQovLyAgICAgICAgICAgICAgICAgICAgfQ0KLy8gICAgICAgICAgICAgICAgfQ0KLy8gICAgICAgICAgICAgICAgaWYoYi5jYWxsJiYhYykgew0KLy8gICAgICAgICAgICAgICAgICAgIHV0ZChiLHNob3csdHJ1ZSkNCi8vICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZihPYmplY3Qua2V5cyhiKS5sZW5ndGghPT0wKXsNCiAgICAgICAgICAgICAgICAgICAgdXRkKGIsYSxzaG93KQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgIH0NCiAgICBpZihvYmouYm91bmRhcnkpew0KICAgICAgICB2YXIgYm91bmRhcnlzPU9iamVjdC5rZXlzKG9iai5ib3VuZGFyeSk7DQogICAgICAgIGlmKGNoZWNrSUQhPT1vYmopew0KICAgICAgICAgICAgZm9yKHZhciBpPTA7aTxib3VuZGFyeXMubGVuZ3RoO2krKyl7DQogICAgICAgICAgICAgICAgdmFyIGE9Ym91bmRhcnlzW2ldLnNsaWNlKDEpOw0KICAgICAgICAgICAgICAgIHZhciBiPW9iai5ib3VuZGFyeVtib3VuZGFyeXNbaV1dOw0KICAgICAgICAgICAgICAgIC8vIGNvbnNvbGUubG9nKGEpOw0KICAgICAgICAgICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGEpLnN0eWxlLmRpc3BsYXk9c2hvdzsNCi8vICAgICAgICAgICAgICAgIGlmKGMpew0KLy8gICAgICAgICAgICAgICAgICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDp0b2d0b3BpY2lkPSciK2ErIiddIikuc3R5bGUuZGlzcGxheT1zaG93Ow0KLy8gICAgICAgICAgICAgICAgICAgIGlmKGM9PT0nbWludXMnKXsNCi8vICAgICAgICAgICAgICAgICAgICAgICAgdXRkKGIsc2hvdykNCi8vICAgICAgICAgICAgICAgICAgICB9DQovLyAgICAgICAgICAgICAgICAgICAgaWYgKGIuY2FsbCYmYz09PSdwbHVzJykgew0KLy8gICAgICAgICAgICAgICAgICAgICAgICB1dGQoYixzaG93LHRydWUpDQovLyAgICAgICAgICAgICAgICAgICAgfQ0KLy8gICAgICAgICAgICAgICAgfQ0KLy8gICAgICAgICAgICAgICAgaWYoYi5jYWxsJiYhYykgew0KLy8gICAgICAgICAgICAgICAgICAgIHV0ZChiLHNob3csdHJ1ZSkNCi8vICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZihPYmplY3Qua2V5cyhiKS5sZW5ndGghPT0wKXsNCiAgICAgICAgICAgICAgICAgICAgdXRkKGIsYSxzaG93KQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgIH0NCiAgICBpZighb2MmJm9iai5jaGlsZCkgew0KICAgICAgICB2YXIgY2hpbGRzID0gT2JqZWN0LmtleXMob2JqLmNoaWxkKTsNCiAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjaGlsZHMubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgIHZhciBhID0gY2hpbGRzW2ldLnNsaWNlKDEpOw0KICAgICAgICAgICAgdmFyIGIgPSBvYmouY2hpbGRbY2hpbGRzW2ldXTsNCiAgICAgICAgICAgIHZhciBjID0gYi50b2d0eXBlOw0KICAgICAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoYSkuc3R5bGUuZGlzcGxheSA9IHNob3c7DQogICAgICAgICAgICBpZiAoYi5yZWxhZnJvbSYmIWMpew0KICAgICAgICAgICAgICAgIGlmKGIucmVsYWZyb20uZGlzcGxheSE9PSBzaG93KXsNCiAgICAgICAgICAgICAgICAgICAgdmFyIHJlbGFmcm9tcz1PYmplY3Qua2V5cyhiLnJlbGFmcm9tKTsNCiAgICAgICAgICAgICAgICAgICAgcmVsYWZyb21zLnNwbGljZShyZWxhZnJvbXMuaW5kZXhPZignZGlzcGxheScpLDEpOw0KICAgICAgICAgICAgICAgICAgICBmb3IodmFyIGs9MDtrPHJlbGFmcm9tcy5sZW5ndGg7aysrKXsNCiAgICAgICAgICAgICAgICAgICAgICAgIHZhciBkPXJlbGFmcm9tc1trXTsNCiAgICAgICAgICAgICAgICAgICAgICAgIGV4dHJhUmVsYVtkXS5pc0M9dHJ1ZTsNCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICBiLnJlbGFmcm9tLmRpc3BsYXkgPSBzaG93Ow0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIGlmIChiLnJlbGF0byYmIWMpew0KICAgICAgICAgICAgICAgIGlmKGIucmVsYXRvLmRpc3BsYXkhPT0gc2hvdyl7DQogICAgICAgICAgICAgICAgICAgIHZhciByZWxhdG9zPU9iamVjdC5rZXlzKGIucmVsYXRvKTsNCiAgICAgICAgICAgICAgICAgICAgcmVsYXRvcy5zcGxpY2UocmVsYXRvcy5pbmRleE9mKCdkaXNwbGF5JyksMSk7DQogICAgICAgICAgICAgICAgICAgIGZvcih2YXIgaz0wO2s8cmVsYXRvcy5sZW5ndGg7aysrKXsNCiAgICAgICAgICAgICAgICAgICAgICAgIHZhciBkPXJlbGF0b3Nba107DQogICAgICAgICAgICAgICAgICAgICAgICBleHRyYVJlbGFbZF0uaXNDPXRydWU7DQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgYi5yZWxhdG8uZGlzcGxheSA9IHNob3c7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgaWYgKGMpIHsNCiAgICAgICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6dG9ndG9waWNpZD0nIiArIGEgKyAiJ10iKS5zdHlsZS5kaXNwbGF5ID0gc2hvdzsNCiAgICAgICAgICAgICAgICBpZiAoYyA9PT0gJ21pbnVzJykgew0KICAgICAgICAgICAgICAgICAgICB1dGQoYixhLHNob3cpDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmICgoYi5jYWxsfHxiLmJvdW5kYXJ5fHxiLnN1bW1hcnkpJiZjPT09J3BsdXMnKSB7DQogICAgICAgICAgICAgICAgICAgIHV0ZChiLGEsc2hvdyx0cnVlKQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIGlmIChiLmNhbGwmJiFjKSB7DQogICAgICAgICAgICAgICAgdXRkKGIsYSxzaG93LHRydWUpDQogICAgICAgICAgICB9DQogICAgICAgICAgICBpZiAoYi5zdW1tYXJ5JiYhYykgew0KICAgICAgICAgICAgICAgIHV0ZChiLGEsc2hvdykNCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIGlmIChiLmJvdW5kYXJ5JiYhYykgew0KICAgICAgICAgICAgICAgIHV0ZChiLGEsc2hvdykNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgIH0NCn0NCg0KZnVuY3Rpb24gZXh0cmFSZWxhRmluKCkgew0KICAgIHZhciBleHRyYWtleXM9T2JqZWN0LmtleXMoZXh0cmFSZWxhKTsNCiAgICBmb3IodmFyIGk9MDtpPGV4dHJha2V5cy5sZW5ndGg7aSsrKXsNCiAgICAgICAgdmFyIGV4dHJhT2JqPWV4dHJhUmVsYVtleHRyYWtleXNbaV1dOw0KICAgICAgICBpZihleHRyYU9iai5pc0MgPT09IHRydWUpew0KICAgICAgICAgICAgdmFyIGZzaG93PWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGV4dHJhT2JqLmZyb21pZCkuc3R5bGUuZGlzcGxheSAhPT0nbm9uZSc/IHRydWU6IGZhbHNlOw0KICAgICAgICAgICAgdmFyIHRzaG93PWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGV4dHJhT2JqLnRvaWQpLnN0eWxlLmRpc3BsYXkgIT09J25vbmUnPyB0cnVlOiBmYWxzZTsNCiAgICAgICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGV4dHJhT2JqLmlkKS5zdHlsZS5kaXNwbGF5PWZzaG93ICYmIHRzaG93PyAnYmxvY2snOiAnbm9uZSc7DQogICAgICAgICAgICBleHRyYVJlbGFbZXh0cmFrZXlzW2ldXS5pc0MgPSBmYWxzZTsNCiAgICAgICAgfQ0KICAgIH0NCn0='))</script>
+  </body>
+</html>
